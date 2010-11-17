@@ -11,11 +11,6 @@ class ThreadedTCPRequestHandler(SocketServer.BaseRequestHandler):
     def process(self, pict):
         # Process (in this case, ask the GIVE server for instructions)
         instr = self.askGive(pict)
-   #     instr = ""
-   #     if pict["destination"] == pict["pos"]:
-   #         instr = "You reached your destination"
-   #     else:
-   #         instr = "Just go ahead and leave me alone, please"
         return instr
         
     def dictValuesToStr(self,dic,values):

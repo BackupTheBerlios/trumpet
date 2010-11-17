@@ -10,10 +10,10 @@ def client(ip, port, num):
     sock.close()
 
 def ask(sock,message):
-    print message
+    print message #XXX
     sock.send(message)
     response = sock.recv(1024)
-    print response
+    print response #XXX
     return response
 
 def talk(sock,num):
@@ -22,7 +22,7 @@ def talk(sock,num):
     destination = "0.0,0.%d,1" %num
     instructions = "please"
     response = ask(sock,("login=%s pos=%s destination=%s instructions=%s" % (login,pos,destination,instructions)))
-    print "%s Received: %s" % (login,response)
+    print "%s Received: %s" % (login,response) #XXX
 
 
 if __name__ == "__main__":
