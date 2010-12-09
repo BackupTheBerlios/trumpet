@@ -16,11 +16,12 @@ mensaje = ""
 
 
 class thread_recibir(threading.Thread):
-    def __init__(self,s,lista):
+    def __init__(self,s):
         threading.Thread.__init__(self)
         self.socket = s
-        self.lista = lista
     def run(self):
+        global lista_clientes
+        global mensaje
         while 1:
             
             data, address = self.socket.recvfrom(5000)
@@ -49,8 +50,7 @@ if __name__ == '__main__':
     # Se establece la conexion
         client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         client_socket.sendto("Conexion", ("localhost",5000))
-        lista = Clista_clientes(lista_clientes)
-        recibir = thread_recibir(client_socket,lista)
+        recibir = thread_recibir(client_socket)
         recibir.start()
         print"Escribe lista para ver una lista de todos los clientes conectados"
         print"Escribe mensaje para ver el mensaje actual que ha mandado el servidor"
@@ -61,6 +61,15 @@ if __name__ == '__main__':
                     print lista_clientes
                 if data == "mensaje":
                     print mensaje
+                if data == "broadcast":
+                    mensaje = raw_input("Introduce el mensaje >")
+                    
+    ##          Tipo de datos que contiene el tipo de mensaje, y su contenido
+                    diccionario = {"Tipo": "broadcast", "numero": mensaje}
+                    pickledList = pickle.dumps ( diccionario)
+                    for i in lista_clientes:
+                           client_socket.sendto(pickledList, ("localhost",i))
+
                 if data <> "q" and data <> "Q":
                     client_socket.sendto(data, ("localhost",5000))
                      
