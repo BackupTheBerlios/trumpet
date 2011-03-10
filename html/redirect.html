@@ -1,0 +1,38 @@
+<html><head><title>Epydoc Redirect Page</title>
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="pragma" content="no-cache" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+<!--
+var pages = ["PrototipoV2.PrototipoV2FrameListener-c", "serverUDP.recibir_mensajes-c", "CreatePlayer.CreatePlayer-c", "FacultyScene.FacultyScene-c", "clienteUDP.thread_recibir-c", "PrototipoV2.PrototipoV2-c", "clienteUDP.conectar-c", "dotscene.DotScene-c", "PythonOgreConfig-m", "SampleFramework-m", "CreatePlayer-m", "FacultyScene-m", "PrototipoV2-m", "clienteUDP-m", "serverUDP-m", "dotscene-m"];
+var dottedName = get_anchor();
+if (dottedName) {
+    var target = redirect_url(dottedName);
+    if (target) window.location.replace(target);
+}
+// -->
+</script>
+
+<h3>Epydoc Auto-redirect page</h3>
+
+<p>When javascript is enabled, this page will redirect URLs of
+the form <tt>redirect.html#<i>dotted.name</i></tt> to the
+documentation for the object with the given fully-qualified
+dotted name.</p>
+<p><a id="message"> &nbsp; </a></p>
+
+<script type="text/javascript">
+<!--
+if (dottedName) {
+    var msg = document.getElementById("message");
+    msg.innerHTML = "No documentation found for <tt>"+
+                    dottedName+"</tt>";
+}
+// -->
+</script>
+
+</body>
+</html>

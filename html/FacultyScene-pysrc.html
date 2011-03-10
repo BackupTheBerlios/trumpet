@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>FacultyScene</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Module&nbsp;FacultyScene
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="FacultyScene-pysrc.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<h1 class="epydoc">Source Code for <a href="FacultyScene-module.html">Module FacultyScene</a></h1>
+<pre class="py-src">
+<a name="L1"></a><tt class="py-lineno"> 1</tt>  <tt class="py-line"><tt class="py-comment"># # /*</tt> </tt>
+<a name="L2"></a><tt class="py-lineno"> 2</tt>  <tt class="py-line"><tt class="py-comment"># # SimpleScenes_TriMesh.h</tt> </tt>
+<a name="L3"></a><tt class="py-lineno"> 3</tt>  <tt class="py-line"><tt class="py-comment"># # ---------------------</tt> </tt>
+<a name="L4"></a><tt class="py-lineno"> 4</tt>  <tt class="py-line"><tt class="py-comment"># # A reimplementation of the ODE triangle mesh collision</tt> </tt>
+<a name="L5"></a><tt class="py-lineno"> 5</tt>  <tt class="py-line"><tt class="py-comment"># # demo using Ogre and the OgreOde wrapper.</tt> </tt>
+<a name="L6"></a><tt class="py-lineno"> 6</tt>  <tt class="py-line"><tt class="py-comment"># # */</tt> </tt>
+<a name="L7"></a><tt class="py-lineno"> 7</tt>  <tt class="py-line"><tt class="py-keyword">import</tt> <tt class="py-name">ogre</tt><tt class="py-op">.</tt><tt class="py-name">renderer</tt><tt class="py-op">.</tt><tt class="py-name">OGRE</tt> <tt class="py-keyword">as</tt> <tt class="py-name">ogre</tt> </tt>
+<a name="L8"></a><tt class="py-lineno"> 8</tt>  <tt class="py-line"><tt class="py-keyword">import</tt> <tt class="py-name">ogre</tt><tt class="py-op">.</tt><tt class="py-name">physics</tt><tt class="py-op">.</tt><tt class="py-name">OgreOde</tt> <tt class="py-keyword">as</tt> <tt class="py-name">OgreOde</tt> </tt>
+<a name="L9"></a><tt class="py-lineno"> 9</tt>  <tt class="py-line"> </tt>
+<a name="L10"></a><tt class="py-lineno">10</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt id="link-0" class="py-name" targets="Module CreatePlayer=CreatePlayer-module.html,Class CreatePlayer.CreatePlayer=CreatePlayer.CreatePlayer-class.html"><a title="CreatePlayer
+CreatePlayer.CreatePlayer" class="py-name" href="#" onclick="return doclink('link-0', 'CreatePlayer', 'link-0');">CreatePlayer</a></tt> <tt class="py-keyword">import</tt> <tt class="py-op">*</tt> </tt>
+<a name="L11"></a><tt class="py-lineno">11</tt>  <tt class="py-line"><tt class="py-keyword">import</tt> <tt id="link-1" class="py-name" targets="Module dotscene=dotscene-module.html"><a title="dotscene" class="py-name" href="#" onclick="return doclink('link-1', 'dotscene', 'link-1');">dotscene</a></tt> <tt class="py-keyword">as</tt> <tt id="link-2" class="py-name" targets="Class dotscene.DotScene=dotscene.DotScene-class.html"><a title="dotscene.DotScene" class="py-name" href="#" onclick="return doclink('link-2', 'DotScene', 'link-2');">DotScene</a></tt> </tt>
+<a name="L12"></a><tt class="py-lineno">12</tt>  <tt class="py-line"><tt class="py-keyword">import</tt> <tt class="py-name">os</tt><tt class="py-op">,</tt> <tt class="py-name">sys</tt> </tt>
+<a name="L13"></a><tt class="py-lineno">13</tt>  <tt class="py-line"> </tt>
+<a name="L14"></a><tt class="py-lineno">14</tt>  <tt class="py-line"> </tt>
+<a name="L15"></a><tt class="py-lineno">15</tt>  <tt class="py-line"><tt class="py-comment"># # /*</tt> </tt>
+<a name="L16"></a><tt class="py-lineno">16</tt>  <tt class="py-line"><tt class="py-comment"># # The box stacking test extends the box stacking demo, but adds a trimesh!</tt> </tt>
+<a name="L17"></a><tt class="py-lineno">17</tt>  <tt class="py-line"><tt class="py-comment"># # */</tt> </tt>
+<a name="FacultyScene"></a><div id="FacultyScene-def"><a name="L18"></a><tt class="py-lineno">18</tt> <a class="py-toggle" href="#" id="FacultyScene-toggle" onclick="return toggle('FacultyScene');">-</a><tt class="py-line"><tt class="py-keyword">class</tt> <a class="py-def-name" href="FacultyScene.FacultyScene-class.html">FacultyScene</a> <tt class="py-op">(</tt> <tt class="py-base-class">CreatePlayer</tt> <tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="FacultyScene-collapsed" style="display:none;" pad="++" indent="++++"></div><div id="FacultyScene-expanded"><a name="FacultyScene.__init__"></a><div id="FacultyScene.__init__-def"><a name="L19"></a><tt class="py-lineno">19</tt> <a class="py-toggle" href="#" id="FacultyScene.__init__-toggle" onclick="return toggle('FacultyScene.__init__');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="FacultyScene.FacultyScene-class.html#__init__">__init__</a> <tt class="py-op">(</tt> <tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">world</tt> <tt class="py-op">,</tt><tt class="py-param">camera</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="FacultyScene.__init__-collapsed" style="display:none;" pad="++" indent="++++++++"></div><div id="FacultyScene.__init__-expanded"><a name="L20"></a><tt class="py-lineno">20</tt>  <tt class="py-line">         </tt>
+<a name="L21"></a><tt class="py-lineno">21</tt>  <tt class="py-line">        <tt id="link-3" class="py-name"><a title="CreatePlayer
+CreatePlayer.CreatePlayer" class="py-name" href="#" onclick="return doclink('link-3', 'CreatePlayer', 'link-0');">CreatePlayer</a></tt><tt class="py-op">.</tt><tt id="link-4" class="py-name" targets="Method CreatePlayer.CreatePlayer.__init__()=CreatePlayer.CreatePlayer-class.html#__init__,Method FacultyScene.FacultyScene.__init__()=FacultyScene.FacultyScene-class.html#__init__,Method PrototipoV2.PrototipoV2.__init__()=PrototipoV2.PrototipoV2-class.html#__init__,Method PrototipoV2.PrototipoV2FrameListener.__init__()=PrototipoV2.PrototipoV2FrameListener-class.html#__init__,Method clienteUDP.conectar.__init__()=clienteUDP.conectar-class.html#__init__,Method clienteUDP.thread_recibir.__init__()=clienteUDP.thread_recibir-class.html#__init__,Method dotscene.DotScene.__init__()=dotscene.DotScene-class.html#__init__,Method serverUDP.recibir_mensajes.__init__()=serverUDP.recibir_mensajes-class.html#__init__"><a title="CreatePlayer.CreatePlayer.__init__
+FacultyScene.FacultyScene.__init__
+PrototipoV2.PrototipoV2.__init__
+PrototipoV2.PrototipoV2FrameListener.__init__
+clienteUDP.conectar.__init__
+clienteUDP.thread_recibir.__init__
+dotscene.DotScene.__init__
+serverUDP.recibir_mensajes.__init__" class="py-name" href="#" onclick="return doclink('link-4', '__init__', 'link-4');">__init__</a></tt><tt class="py-op">(</tt> <tt class="py-name">self</tt><tt class="py-op">,</tt> <tt class="py-name">world</tt><tt class="py-op">,</tt><tt class="py-name">camera</tt><tt class="py-op">)</tt> </tt>
+<a name="L22"></a><tt class="py-lineno">22</tt>  <tt class="py-line">         </tt>
+<a name="L23"></a><tt class="py-lineno">23</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">camera</tt> <tt class="py-op">=</tt> <tt class="py-name">camera</tt> </tt>
+<a name="L24"></a><tt class="py-lineno">24</tt>  <tt class="py-line">         </tt>
+<a name="L25"></a><tt class="py-lineno">25</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">_facultyNode</tt> <tt class="py-op">=</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">_mgr</tt><tt class="py-op">.</tt><tt class="py-name">getRootSceneNode</tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">.</tt><tt class="py-name">createChildSceneNode</tt><tt class="py-op">(</tt><tt class="py-string">"DotSceneRoot"</tt><tt class="py-op">)</tt> </tt>
+<a name="L26"></a><tt class="py-lineno">26</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">_dotscene</tt> <tt class="py-op">=</tt> <tt id="link-5" class="py-name"><a title="dotscene.DotScene" class="py-name" href="#" onclick="return doclink('link-5', 'DotScene', 'link-2');">DotScene</a></tt><tt class="py-op">.</tt><tt id="link-6" class="py-name"><a title="dotscene.DotScene" class="py-name" href="#" onclick="return doclink('link-6', 'DotScene', 'link-2');">DotScene</a></tt><tt class="py-op">(</tt><tt class="py-string">"../media_extra/quake/roadster/Escena01.scene"</tt><tt class="py-op">,</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">_mgr</tt><tt class="py-op">,</tt><tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">_facultyNode</tt><tt class="py-op">)</tt> </tt>
+<a name="L27"></a><tt class="py-lineno">27</tt>  <tt class="py-line">         </tt>
+<a name="L28"></a><tt class="py-lineno">28</tt>  <tt class="py-line">     </tt>
+<a name="L29"></a><tt class="py-lineno">29</tt>  <tt class="py-line">        <tt class="py-keyword">for</tt> <tt class="py-name">_mesh</tt> <tt class="py-keyword">in</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">_dotscene</tt><tt class="py-op">.</tt><tt id="link-7" class="py-name" targets="Method dotscene.DotScene.__getEI__()=dotscene.DotScene-class.html#__getEI__"><a title="dotscene.DotScene.__getEI__" class="py-name" href="#" onclick="return doclink('link-7', '__getEI__', 'link-7');">__getEI__</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L30"></a><tt class="py-lineno">30</tt>  <tt class="py-line">            <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-8" class="py-name" targets="Method FacultyScene.FacultyScene.create_ODE_Terrain()=FacultyScene.FacultyScene-class.html#create_ODE_Terrain"><a title="FacultyScene.FacultyScene.create_ODE_Terrain" class="py-name" href="#" onclick="return doclink('link-8', 'create_ODE_Terrain', 'link-8');">create_ODE_Terrain</a></tt><tt class="py-op">(</tt><tt class="py-name">_mesh</tt><tt class="py-op">,</tt><tt class="py-name">_mesh</tt><tt class="py-op">)</tt><tt class="py-op">;</tt> </tt>
+</div><a name="L31"></a><tt class="py-lineno">31</tt>  <tt class="py-line">             </tt>
+<a name="L32"></a><tt class="py-lineno">32</tt>  <tt class="py-line">             </tt>
+<a name="FacultyScene.create_ODE_Terrain"></a><div id="FacultyScene.create_ODE_Terrain-def"><a name="L33"></a><tt class="py-lineno">33</tt> <a class="py-toggle" href="#" id="FacultyScene.create_ODE_Terrain-toggle" onclick="return toggle('FacultyScene.create_ODE_Terrain');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="FacultyScene.FacultyScene-class.html#create_ODE_Terrain">create_ODE_Terrain</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt><tt class="py-param">name</tt><tt class="py-op">,</tt><tt class="py-param">meshFile</tt> <tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="FacultyScene.create_ODE_Terrain-collapsed" style="display:none;" pad="++" indent="++++++++"></div><div id="FacultyScene.create_ODE_Terrain-expanded"><a name="L34"></a><tt class="py-lineno">34</tt>  <tt class="py-line"> </tt>
+<a name="L35"></a><tt class="py-lineno">35</tt>  <tt class="py-line">        <tt class="py-name">entity</tt> <tt class="py-op">=</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">_mgr</tt><tt class="py-op">.</tt><tt class="py-name">createEntity</tt><tt class="py-op">(</tt><tt class="py-name">name</tt><tt class="py-op">,</tt><tt class="py-name">meshFile</tt><tt class="py-op">)</tt> </tt>
+<a name="L36"></a><tt class="py-lineno">36</tt>  <tt class="py-line">        <tt class="py-name">node</tt> <tt class="py-op">=</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">_mgr</tt><tt class="py-op">.</tt><tt class="py-name">getRootSceneNode</tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">.</tt><tt class="py-name">createChildSceneNode</tt><tt class="py-op">(</tt><tt class="py-name">entity</tt><tt class="py-op">.</tt><tt id="link-9" class="py-name" targets="Method FacultyScene.FacultyScene.getName()=FacultyScene.FacultyScene-class.html#getName"><a title="FacultyScene.FacultyScene.getName" class="py-name" href="#" onclick="return doclink('link-9', 'getName', 'link-9');">getName</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">)</tt> </tt>
+<a name="L37"></a><tt class="py-lineno">37</tt>  <tt class="py-line">        <tt class="py-name">node</tt><tt class="py-op">.</tt><tt class="py-name">attachObject</tt><tt class="py-op">(</tt><tt class="py-name">entity</tt><tt class="py-op">)</tt> </tt>
+<a name="L38"></a><tt class="py-lineno">38</tt>  <tt class="py-line">        <tt class="py-name">node</tt><tt class="py-op">.</tt><tt class="py-name">setPosition</tt><tt class="py-op">(</tt><tt class="py-name">ogre</tt><tt class="py-op">.</tt><tt class="py-name">Vector3</tt><tt class="py-op">(</tt><tt class="py-number">0</tt><tt class="py-op">,</tt><tt class="py-number">3</tt><tt class="py-op">,</tt><tt class="py-number">0</tt><tt class="py-op">)</tt><tt class="py-op">)</tt> </tt>
+<a name="L39"></a><tt class="py-lineno">39</tt>  <tt class="py-line">        <tt class="py-name">node</tt><tt class="py-op">.</tt><tt class="py-name">setOrientation</tt><tt class="py-op">(</tt><tt class="py-name">ogre</tt><tt class="py-op">.</tt><tt class="py-name">Quaternion</tt><tt class="py-op">(</tt><tt class="py-name">ogre</tt><tt class="py-op">.</tt><tt class="py-name">Degree</tt><tt class="py-op">(</tt><tt class="py-number">30</tt><tt class="py-op">)</tt><tt class="py-op">,</tt><tt class="py-name">ogre</tt><tt class="py-op">.</tt><tt class="py-name">Vector3</tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">.</tt><tt class="py-name">UNIT_Y</tt><tt class="py-op">)</tt><tt class="py-op">)</tt> </tt>
+<a name="L40"></a><tt class="py-lineno">40</tt>  <tt class="py-line">        <tt class="py-name">ei</tt> <tt class="py-op">=</tt> <tt class="py-name">OgreOde</tt><tt class="py-op">.</tt><tt class="py-name">EntityInformer</tt> <tt class="py-op">(</tt><tt class="py-name">entity</tt><tt class="py-op">,</tt><tt class="py-name">node</tt><tt class="py-op">.</tt><tt class="py-name">_getFullTransform</tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">)</tt> </tt>
+<a name="L41"></a><tt class="py-lineno">41</tt>  <tt class="py-line">        <tt class="py-name">geom</tt> <tt class="py-op">=</tt> <tt class="py-name">ei</tt><tt class="py-op">.</tt><tt class="py-name">createStaticTriangleMesh</tt><tt class="py-op">(</tt><tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">_world</tt><tt class="py-op">,</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">_space</tt><tt class="py-op">)</tt> </tt>
+<a name="L42"></a><tt class="py-lineno">42</tt>  <tt class="py-line">        <tt class="py-name">entity</tt><tt class="py-op">.</tt><tt class="py-name">setUserAny</tt> <tt class="py-op">(</tt><tt class="py-name">geom</tt><tt class="py-op">)</tt> </tt>
+<a name="L43"></a><tt class="py-lineno">43</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">_geoms</tt><tt class="py-op">.</tt><tt class="py-name">append</tt><tt class="py-op">(</tt><tt class="py-name">geom</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L44"></a><tt class="py-lineno">44</tt>  <tt class="py-line">         </tt>
+<a name="L45"></a><tt class="py-lineno">45</tt>  <tt class="py-line">         </tt>
+<a name="L46"></a><tt class="py-lineno">46</tt>  <tt class="py-line">         </tt>
+<a name="L47"></a><tt class="py-lineno">47</tt>  <tt class="py-line">    <tt class="py-comment">## Destructor, manually destroy the entity and node, since they're </tt> </tt>
+<a name="L48"></a><tt class="py-lineno">48</tt>  <tt class="py-line">    <tt class="py-comment">## not associated with a body they won't get deleted automatically</tt> </tt>
+<a name="FacultyScene._setUpResources"></a><div id="FacultyScene._setUpResources-def"><a name="L49"></a><tt class="py-lineno">49</tt> <a class="py-toggle" href="#" id="FacultyScene._setUpResources-toggle" onclick="return toggle('FacultyScene._setUpResources');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="FacultyScene.FacultyScene-class.html#_setUpResources">_setUpResources</a> <tt class="py-op">(</tt> <tt class="py-param">self</tt> <tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="FacultyScene._setUpResources-collapsed" style="display:none;" pad="++" indent="++++++++"></div><div id="FacultyScene._setUpResources-expanded"><a name="L50"></a><tt class="py-lineno">50</tt>  <tt class="py-line">        <tt class="py-comment"># first load the default resources</tt> </tt>
+<a name="L51"></a><tt class="py-lineno">51</tt>  <tt class="py-line">        <tt class="py-name">sf</tt><tt class="py-op">.</tt><tt class="py-name">Application</tt><tt class="py-op">.</tt><tt id="link-10" class="py-name" targets="Method FacultyScene.FacultyScene._setUpResources()=FacultyScene.FacultyScene-class.html#_setUpResources"><a title="FacultyScene.FacultyScene._setUpResources" class="py-name" href="#" onclick="return doclink('link-10', '_setUpResources', 'link-10');">_setUpResources</a></tt> <tt class="py-op">(</tt> <tt class="py-name">self</tt> <tt class="py-op">)</tt> </tt>
+<a name="L52"></a><tt class="py-lineno">52</tt>  <tt class="py-line">         </tt>
+<a name="L53"></a><tt class="py-lineno">53</tt>  <tt class="py-line">        <tt class="py-comment"># Now load any extra resource locations that we might need..  </tt> </tt>
+<a name="L54"></a><tt class="py-lineno">54</tt>  <tt class="py-line">        <tt class="py-comment"># in the example I'm adding the entire tree under the base directory</tt> </tt>
+<a name="L55"></a><tt class="py-lineno">55</tt>  <tt class="py-line">        <tt class="py-name">bases</tt> <tt class="py-op">=</tt> <tt class="py-op">[</tt><tt class="py-string">"../media_extra/quake"</tt><tt class="py-op">]</tt> </tt>
+<a name="L56"></a><tt class="py-lineno">56</tt>  <tt class="py-line">        <tt class="py-keyword">for</tt> <tt class="py-name">base</tt> <tt class="py-keyword">in</tt> <tt class="py-name">bases</tt><tt class="py-op">:</tt>  </tt>
+<a name="L57"></a><tt class="py-lineno">57</tt>  <tt class="py-line">            <tt class="py-keyword">for</tt> <tt class="py-name">directory</tt> <tt class="py-keyword">in</tt> <tt class="py-name">os</tt><tt class="py-op">.</tt><tt class="py-name">listdir</tt> <tt class="py-op">(</tt> <tt class="py-name">base</tt> <tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L58"></a><tt class="py-lineno">58</tt>  <tt class="py-line">                <tt class="py-name">fullPath</tt> <tt class="py-op">=</tt> <tt class="py-name">os</tt><tt class="py-op">.</tt><tt class="py-name">path</tt><tt class="py-op">.</tt><tt class="py-name">join</tt> <tt class="py-op">(</tt> <tt class="py-name">base</tt><tt class="py-op">,</tt> <tt class="py-name">directory</tt> <tt class="py-op">)</tt> </tt>
+<a name="L59"></a><tt class="py-lineno">59</tt>  <tt class="py-line">                <tt class="py-keyword">if</tt> <tt class="py-name">os</tt><tt class="py-op">.</tt><tt class="py-name">path</tt><tt class="py-op">.</tt><tt class="py-name">isdir</tt><tt class="py-op">(</tt> <tt class="py-name">fullPath</tt> <tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L60"></a><tt class="py-lineno">60</tt>  <tt class="py-line">                    <tt class="py-name">ogre</tt><tt class="py-op">.</tt><tt class="py-name">ResourceGroupManager</tt><tt class="py-op">.</tt><tt class="py-name">getSingleton</tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">.</tt><tt class="py-name">addResourceLocation</tt><tt class="py-op">(</tt><tt class="py-name">fullPath</tt><tt class="py-op">,</tt><tt class="py-string">"FileSystem"</tt><tt class="py-op">,</tt> <tt class="py-string">"General"</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L61"></a><tt class="py-lineno">61</tt>  <tt class="py-line">                </tt>
+<a name="L62"></a><tt class="py-lineno">62</tt>  <tt class="py-line">                     </tt>
+<a name="FacultyScene.__del__"></a><div id="FacultyScene.__del__-def"><a name="L63"></a><tt class="py-lineno">63</tt> <a class="py-toggle" href="#" id="FacultyScene.__del__-toggle" onclick="return toggle('FacultyScene.__del__');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="FacultyScene.FacultyScene-class.html#__del__">__del__</a> <tt class="py-op">(</tt> <tt class="py-param">self</tt> <tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="FacultyScene.__del__-collapsed" style="display:none;" pad="++" indent="++++++++"></div><div id="FacultyScene.__del__-expanded"><a name="L64"></a><tt class="py-lineno">64</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">_mgr</tt><tt class="py-op">.</tt><tt class="py-name">destroySceneNode</tt><tt class="py-op">(</tt><tt class="py-string">"DotSceneRoot"</tt><tt class="py-op">)</tt> </tt>
+<a name="L65"></a><tt class="py-lineno">65</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">_mgr</tt><tt class="py-op">.</tt><tt class="py-name">destroyEntity</tt><tt class="py-op">(</tt><tt class="py-string">"DotSceneRoot"</tt><tt class="py-op">)</tt> </tt>
+<a name="L66"></a><tt class="py-lineno">66</tt>  <tt class="py-line">        <tt class="py-name">SimpleScenes</tt><tt class="py-op">.</tt><tt id="link-11" class="py-name" targets="Method CreatePlayer.CreatePlayer.__del__()=CreatePlayer.CreatePlayer-class.html#__del__,Method FacultyScene.FacultyScene.__del__()=FacultyScene.FacultyScene-class.html#__del__,Method PrototipoV2.PrototipoV2.__del__()=PrototipoV2.PrototipoV2-class.html#__del__,Method PrototipoV2.PrototipoV2FrameListener.__del__()=PrototipoV2.PrototipoV2FrameListener-class.html#__del__"><a title="CreatePlayer.CreatePlayer.__del__
+FacultyScene.FacultyScene.__del__
+PrototipoV2.PrototipoV2.__del__
+PrototipoV2.PrototipoV2FrameListener.__del__" class="py-name" href="#" onclick="return doclink('link-11', '__del__', 'link-11');">__del__</a></tt><tt class="py-op">(</tt><tt class="py-name">self</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L67"></a><tt class="py-lineno">67</tt>  <tt class="py-line">        </tt>
+<a name="L68"></a><tt class="py-lineno">68</tt>  <tt class="py-line">    <tt class="py-comment">## Return our name for the test application to display</tt> </tt>
+<a name="FacultyScene.getName"></a><div id="FacultyScene.getName-def"><a name="L69"></a><tt class="py-lineno">69</tt> <a class="py-toggle" href="#" id="FacultyScene.getName-toggle" onclick="return toggle('FacultyScene.getName');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="FacultyScene.FacultyScene-class.html#getName">getName</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="FacultyScene.getName-collapsed" style="display:none;" pad="++" indent="++++++++"></div><div id="FacultyScene.getName-expanded"><a name="L70"></a><tt class="py-lineno">70</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-string">"Prototipo V2.2"</tt> </tt>
+</div></div><a name="L71"></a><tt class="py-lineno">71</tt>  <tt class="py-line"> </tt><script type="text/javascript">
+<!--
+expandto(location.href);
+// -->
+</script>
+</pre>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Thu Mar 10 21:51:31 2011
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>
