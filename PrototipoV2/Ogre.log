@@ -1,0 +1,1522 @@
+19:04:48: Creating resource group General
+19:04:48: Creating resource group Internal
+19:04:48: Creating resource group Autodetect
+19:04:48: SceneManagerFactory for type 'DefaultSceneManager' registered.
+19:04:48: Registering ResourceManager for type Material
+19:04:48: Registering ResourceManager for type Mesh
+19:04:48: Registering ResourceManager for type Skeleton
+19:04:48: MovableObjectFactory for type 'ParticleSystem' registered.
+19:04:48: OverlayElementFactory for type Panel registered.
+19:04:48: OverlayElementFactory for type BorderPanel registered.
+19:04:48: OverlayElementFactory for type TextArea registered.
+19:04:48: Registering ResourceManager for type Font
+19:04:48: ArchiveFactory for archive type FileSystem registered.
+19:04:48: ArchiveFactory for archive type Zip registered.
+19:04:48: DDS codec registering
+19:04:48: FreeImage version: 3.13.1
+19:04:48: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+19:04:48: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,bay,bmq,cr2,crw,cs1,dc2,dcr,dng,erf,fff,hdr,k25,kdc,mdc,mos,mrw,nef,orf,pef,pxn,raf,raw,rdc,sr2,srf,arw,3fr,cine,ia,kc2,mef,nrw,qtk,rw2,sti,drf,dsc,ptx,cap,iiq,rwz
+19:04:48: Registering ResourceManager for type HighLevelGpuProgram
+19:04:48: Registering ResourceManager for type Compositor
+19:04:48: MovableObjectFactory for type 'Entity' registered.
+19:04:48: MovableObjectFactory for type 'Light' registered.
+19:04:48: MovableObjectFactory for type 'BillboardSet' registered.
+19:04:48: MovableObjectFactory for type 'ManualObject' registered.
+19:04:48: MovableObjectFactory for type 'BillboardChain' registered.
+19:04:48: MovableObjectFactory for type 'RibbonTrail' registered.
+19:04:48: Loading library ../../plugins\RenderSystem_GL.dll
+19:04:48: Installing plugin: GL RenderSystem
+19:04:48: OpenGL Rendering Subsystem created.
+19:04:48: Plugin successfully installed
+19:04:48: Loading library ../../plugins\RenderSystem_Direct3D9.dll
+19:04:48: Installing plugin: D3D9 RenderSystem
+19:04:48: D3D9 : Direct3D9 Rendering Subsystem created.
+19:04:48: D3D9: Driver Detection Starts
+19:04:48: D3D9: Driver Detection Ends
+19:04:48: Plugin successfully installed
+19:04:48: Loading library ../../plugins\Plugin_ParticleFX.dll
+19:04:48: Installing plugin: ParticleFX
+19:04:48: Particle Emitter Type 'Point' registered
+19:04:48: Particle Emitter Type 'Box' registered
+19:04:48: Particle Emitter Type 'Ellipsoid' registered
+19:04:48: Particle Emitter Type 'Cylinder' registered
+19:04:48: Particle Emitter Type 'Ring' registered
+19:04:48: Particle Emitter Type 'HollowEllipsoid' registered
+19:04:48: Particle Affector Type 'LinearForce' registered
+19:04:48: Particle Affector Type 'ColourFader' registered
+19:04:48: Particle Affector Type 'ColourFader2' registered
+19:04:48: Particle Affector Type 'ColourImage' registered
+19:04:48: Particle Affector Type 'ColourInterpolator' registered
+19:04:48: Particle Affector Type 'Scaler' registered
+19:04:48: Particle Affector Type 'Rotator' registered
+19:04:48: Particle Affector Type 'DirectionRandomiser' registered
+19:04:48: Particle Affector Type 'DeflectorPlane' registered
+19:04:48: Plugin successfully installed
+19:04:48: Loading library ../../plugins\Plugin_BSPSceneManager.dll
+19:04:48: Installing plugin: BSP Scene Manager
+19:04:48: Plugin successfully installed
+19:04:48: Loading library ../../plugins\Plugin_OctreeSceneManager.dll
+19:04:48: Installing plugin: Octree & Terrain Scene Manager
+19:04:48: Plugin successfully installed
+19:04:48: Loading library ../../plugins\Plugin_CgProgramManager.dll
+19:04:49: Installing plugin: Cg Program Manager
+19:04:49: Plugin successfully installed
+19:04:49: *-*-* OGRE Initialising
+19:04:49: *-*-* Version 1.7.0 (Cthugha)
+19:04:49: Creating resource group Bootstrap
+19:04:49: Added resource location '../media/packs/OgreCore.zip' of type 'Zip' to resource group 'Bootstrap'
+19:04:49: Added resource location '../media' of type 'FileSystem' to resource group 'General'
+19:04:49: Added resource location '../media/models' of type 'FileSystem' to resource group 'General'
+19:04:49: Added resource location '../media/materials/scripts' of type 'FileSystem' to resource group 'General'
+19:04:49: Added resource location '../media/materials/textures' of type 'FileSystem' to resource group 'General'
+19:04:49: Added resource location '../media/packs/OgreCore.zip' of type 'Zip' to resource group 'General'
+19:04:49: Creating resource group OgreOde
+19:04:49: Added resource location '../media' of type 'FileSystem' to resource group 'OgreOde'
+19:04:49: D3D9 : RenderSystem Option: Allow NVPerfHUD = No
+19:04:49: D3D9 : RenderSystem Option: FSAA = 0
+19:04:49: D3D9 : RenderSystem Option: Floating-point mode = Fastest
+19:04:49: D3D9 : RenderSystem Option: Full Screen = No
+19:04:49: D3D9 : RenderSystem Option: Rendering Device = Monitor-1-NVIDIA GeForce GT 330M
+19:04:49: D3D9 : RenderSystem Option: Resource Creation Policy = Create on all devices
+19:04:49: D3D9 : RenderSystem Option: VSync = No
+19:04:49: D3D9 : RenderSystem Option: VSync Interval = 1
+19:04:49: D3D9 : RenderSystem Option: Video Mode = 640 x 480 @ 32-bit colour
+19:04:49: D3D9 : RenderSystem Option: sRGB Gamma Conversion = No
+19:04:50: CPU Identifier & Features
+19:04:50: -------------------------
+19:04:50:  *   CPU ID: GenuineIntel: Intel(R) Core(TM) i7 CPU       Q 740  @ 1.73GHz
+19:04:50:  *      SSE: yes
+19:04:50:  *     SSE2: yes
+19:04:50:  *     SSE3: yes
+19:04:50:  *      MMX: yes
+19:04:50:  *   MMXEXT: yes
+19:04:50:  *    3DNOW: no
+19:04:50:  * 3DNOWEXT: no
+19:04:50:  *     CMOV: yes
+19:04:50:  *      TSC: yes
+19:04:50:  *      FPU: yes
+19:04:50:  *      PRO: yes
+19:04:51:  *       HT: no
+19:04:51: -------------------------
+19:04:51: D3D9 : Subsystem Initialising
+19:04:51: Registering ResourceManager for type Texture
+19:04:51: Registering ResourceManager for type GpuProgram
+19:04:51: D3D9RenderSystem::_createRenderWindow "C:\Users\Fer\Documents\Universidad\Proyecto\Archivos\demos\PrototipoV2.4\PrototipoV2.py", 640x480 windowed  miscParams: FSAA=0 FSAAHint= colourDepth=32 gamma=false monitorIndex=0 useNVPerfHUD=false vsync=false vsyncInterval=1 
+19:04:51: D3D9 : Created D3D9 Rendering Window 'C:\Users\Fer\Documents\Universidad\Proyecto\Archivos\demos\PrototipoV2.4\PrototipoV2.py' : 640x480, 32bpp
+19:04:51: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+19:04:51: D3D9: Vertex texture format supported - PF_FLOAT16_RGB
+19:04:51: D3D9: Vertex texture format supported - PF_FLOAT16_RGBA
+19:04:51: D3D9: Vertex texture format supported - PF_FLOAT32_RGB
+19:04:51: D3D9: Vertex texture format supported - PF_FLOAT32_RGBA
+19:04:51: D3D9: Vertex texture format supported - PF_FLOAT16_R
+19:04:51: D3D9: Vertex texture format supported - PF_FLOAT32_R
+19:04:51: D3D9: Vertex texture format supported - PF_FLOAT16_GR
+19:04:51: D3D9: Vertex texture format supported - PF_FLOAT32_GR
+19:04:51: RenderSystem capabilities
+19:04:51: -------------------------
+19:04:51: RenderSystem Name: Direct3D9 Rendering Subsystem
+19:04:51: GPU Vendor: nvidia
+19:04:51: Device Name: Monitor-1-NVIDIA GeForce GT 330M
+19:04:51: Driver Version: 8.16.11.8988
+19:04:51:  * Fixed function pipeline: yes
+19:04:51:  * Hardware generation of mipmaps: yes
+19:04:51:  * Texture blending: yes
+19:04:51:  * Anisotropic texture filtering: yes
+19:04:51:  * Dot product texture operation: yes
+19:04:51:  * Cube mapping: yes
+19:04:51:  * Hardware stencil buffer: yes
+19:04:51:    - Stencil depth: 8
+19:04:51:    - Two sided stencil support: yes
+19:04:51:    - Wrap stencil values: yes
+19:04:51:  * Hardware vertex / index buffers: yes
+19:04:51:  * Vertex programs: yes
+19:04:51:  * Number of floating-point constants for vertex programs: 256
+19:04:51:  * Number of integer constants for vertex programs: 16
+19:04:51:  * Number of boolean constants for vertex programs: 16
+19:04:51:  * Fragment programs: yes
+19:04:51:  * Number of floating-point constants for fragment programs: 224
+19:04:51:  * Number of integer constants for fragment programs: 16
+19:04:51:  * Number of boolean constants for fragment programs: 16
+19:04:51:  * Geometry programs: no
+19:04:51:  * Number of floating-point constants for geometry programs: 0
+19:04:51:  * Number of integer constants for geometry programs: 28672
+19:04:51:  * Number of boolean constants for geometry programs: 25441
+19:04:51:  * Supported Shader Profiles: hlsl ps_1_1 ps_1_2 ps_1_3 ps_1_4 ps_2_0 ps_2_a ps_2_b ps_2_x ps_3_0 vs_1_1 vs_2_0 vs_2_a vs_2_x vs_3_0
+19:04:51:  * Texture Compression: yes
+19:04:51:    - DXT: yes
+19:04:51:    - VTC: no
+19:04:51:    - PVRTC: no
+19:04:51:  * Scissor Rectangle: yes
+19:04:51:  * Hardware Occlusion Query: yes
+19:04:51:  * User clip planes: yes
+19:04:51:  * VET_UBYTE4 vertex element type: yes
+19:04:51:  * Infinite far plane projection: yes
+19:04:51:  * Hardware render-to-texture: yes
+19:04:51:  * Floating point textures: yes
+19:04:51:  * Non-power-of-two textures: yes
+19:04:51:  * Volume textures: yes
+19:04:51:  * Multiple Render Targets: 4
+19:04:51:    - With different bit depths: yes
+19:04:51:  * Point Sprites: yes
+19:04:51:  * Extended point parameters: yes
+19:04:51:  * Max Point Size: 10
+19:04:51:  * Vertex texture fetch: yes
+19:04:51:  * Number of world matrices: 0
+19:04:51:  * Number of texture units: 8
+19:04:51:  * Stencil buffer depth: 8
+19:04:51:  * Number of vertex blend matrices: 0
+19:04:51:    - Max vertex textures: 4
+19:04:51:    - Vertex textures shared: no
+19:04:51:  * Render to Vertex Buffer : no
+19:04:51:  * DirectX per stage constants: yes
+19:04:51: ***************************************
+19:04:51: *** D3D9 : Subsystem Initialised OK ***
+19:04:51: ***************************************
+19:04:51: DefaultWorkQueue('Root') initialising on thread 0039A450.
+19:04:51: DefaultWorkQueue('Root')::WorkerFunc - thread 003BA1C0 starting.
+19:04:51: DefaultWorkQueue('Root')::WorkerFunc - thread 003BA1F0 starting.
+19:04:51: DefaultWorkQueue('Root')::WorkerFunc - thread 003BA220 starting.
+19:04:51: DefaultWorkQueue('Root')::WorkerFunc - thread 003BA250 starting.
+19:04:51: DefaultWorkQueue('Root')::WorkerFunc - thread 003BA280 starting.
+19:04:51: DefaultWorkQueue('Root')::WorkerFunc - thread 003BA2B0 starting.
+19:04:51: DefaultWorkQueue('Root')::WorkerFunc - thread 003BA2E0 starting.
+19:04:51: Particle Renderer Type 'billboard' registered
+19:04:51: DefaultWorkQueue('Root')::WorkerFunc - thread 003BA310 starting.
+19:04:51: SceneManagerFactory for type 'BspSceneManager' registered.
+19:04:51: Registering ResourceManager for type BspLevel
+19:04:51: SceneManagerFactory for type 'OctreeSceneManager' registered.
+19:04:51: SceneManagerFactory for type 'TerrainSceneManager' registered.
+19:04:51: Parsing scripts for resource group Autodetect
+19:04:51: Finished parsing scripts for resource group Autodetect
+19:04:51: Parsing scripts for resource group Bootstrap
+19:04:51: Parsing script OgreCore.material
+19:04:51: Parsing script OgreProfiler.material
+19:04:51: Parsing script Ogre.fontdef
+19:04:51: Parsing script OgreDebugPanel.overlay
+19:04:51: Texture: New_Ogre_Border_Center.png: Loading 1 faces(PF_A8R8G8B8,256x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+19:04:51: Texture: New_Ogre_Border.png: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+19:04:51: Texture: New_Ogre_Border_Break.png: Loading 1 faces(PF_A8R8G8B8,32x32x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+19:04:51: Font BlueHighwayusing texture size 512x512
+19:04:51: Info: Freetype returned null for character 127 in font BlueHighway
+19:04:51: Info: Freetype returned null for character 128 in font BlueHighway
+19:04:51: Info: Freetype returned null for character 129 in font BlueHighway
+19:04:51: Info: Freetype returned null for character 130 in font BlueHighway
+19:04:51: Info: Freetype returned null for character 131 in font BlueHighway
+19:04:51: Info: Freetype returned null for character 132 in font BlueHighway
+19:04:51: Info: Freetype returned null for character 133 in font BlueHighway
+19:04:51: Info: Freetype returned null for character 134 in font BlueHighway
+19:04:51: Info: Freetype returned null for character 135 in font BlueHighway
+19:04:51: Info: Freetype returned null for character 136 in font BlueHighway
+19:04:51: Info: Freetype returned null for character 137 in font BlueHighway
+19:04:51: Info: Freetype returned null for character 138 in font BlueHighway
+19:04:51: Info: Freetype returned null for character 139 in font BlueHighway
+19:04:51: Info: Freetype returned null for character 140 in font BlueHighway
+19:04:51: Info: Freetype returned null for character 141 in font BlueHighway
+19:04:51: Info: Freetype returned null for character 142 in font BlueHighway
+19:04:51: Info: Freetype returned null for character 143 in font BlueHighway
+19:04:51: Info: Freetype returned null for character 144 in font BlueHighway
+19:04:51: Info: Freetype returned null for character 145 in font BlueHighway
+19:04:51: Info: Freetype returned null for character 146 in font BlueHighway
+19:04:51: Info: Freetype returned null for character 147 in font BlueHighway
+19:04:51: Info: Freetype returned null for character 148 in font BlueHighway
+19:04:51: Info: Freetype returned null for character 149 in font BlueHighway
+19:04:52: Info: Freetype returned null for character 150 in font BlueHighway
+19:04:52: Info: Freetype returned null for character 151 in font BlueHighway
+19:04:52: Info: Freetype returned null for character 152 in font BlueHighway
+19:04:52: Info: Freetype returned null for character 153 in font BlueHighway
+19:04:52: Info: Freetype returned null for character 154 in font BlueHighway
+19:04:52: Info: Freetype returned null for character 155 in font BlueHighway
+19:04:52: Info: Freetype returned null for character 156 in font BlueHighway
+19:04:52: Info: Freetype returned null for character 157 in font BlueHighway
+19:04:52: Info: Freetype returned null for character 158 in font BlueHighway
+19:04:52: Info: Freetype returned null for character 159 in font BlueHighway
+19:04:52: Info: Freetype returned null for character 160 in font BlueHighway
+19:04:52: Texture: BlueHighwayTexture: Loading 1 faces(PF_BYTE_LA,512x512x1) with 0 generated mipmaps from Image. Internal format is PF_BYTE_LA,512x512x1.
+19:04:52: Texture: ogretext.png: Loading 1 faces(PF_A8R8G8B8,256x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+19:04:52: Parsing script OgreLoadingPanel.overlay
+19:04:52: Finished parsing scripts for resource group Bootstrap
+19:04:52: Parsing scripts for resource group General
+19:04:52: Parsing script Examples.program
+19:04:52: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:52: High-level program Ogre/BasicVertexPrograms/AmbientOneTexture encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:52: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:52: Compiler error: invalid parameters in Examples.program(16): setting of constant failed
+19:04:52: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:52: Compiler error: invalid parameters in Examples.program(17): setting of constant failed
+19:04:52: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:52: High-level program Ogre/BasicVertexPrograms/AmbientOneTextureHLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:52: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:52: Compiler error: invalid parameters in Examples.program(30): setting of constant failed
+19:04:52: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:52: Compiler error: invalid parameters in Examples.program(31): setting of constant failed
+19:04:52: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:52: High-level program Ogre/HardwareSkinningTwoWeightsCg encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:52: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:52: Compiler error: invalid parameters in Examples.program(111): setting of constant failed
+19:04:52: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:52: Compiler error: invalid parameters in Examples.program(112): setting of constant failed
+19:04:52: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:52: Compiler error: invalid parameters in Examples.program(113): setting of constant failed
+19:04:52: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:52: Compiler error: invalid parameters in Examples.program(114): setting of constant failed
+19:04:52: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:52: Compiler error: invalid parameters in Examples.program(115): setting of constant failed
+19:04:52: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:52: Compiler error: invalid parameters in Examples.program(116): setting of constant failed
+19:04:52: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:52: High-level program Ogre/HardwareMorphAnimation encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:52: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:52: Compiler error: invalid parameters in Examples.program(139): setting of constant failed
+19:04:52: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:52: Compiler error: invalid parameters in Examples.program(140): setting of constant failed
+19:04:52: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:52: High-level program Ogre/HardwarePoseAnimation encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:52: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:52: Compiler error: invalid parameters in Examples.program(153): setting of constant failed
+19:04:52: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:52: Compiler error: invalid parameters in Examples.program(154): setting of constant failed
+19:04:52: Parsing script StdQuad_vp.program
+19:04:52: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource StdQuad_vp.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:52: High-level program Ogre/Compositor/StdQuad_Cg_vp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource StdQuad_vp.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:52: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:52: Compiler error: invalid parameters in StdQuad_vp.program(9): setting of constant failed
+19:04:52: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource StdQuad_vp.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:52: High-level program Ogre/Compositor/StdQuad_Tex2_vp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource StdQuad_vp.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:52: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:52: Compiler error: invalid parameters in StdQuad_vp.program(21): setting of constant failed
+19:04:52: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource StdQuad_vp.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:52: High-level program Ogre/Compositor/StdQuad_Tex2a_vp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource StdQuad_vp.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:52: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:52: Compiler error: invalid parameters in StdQuad_vp.program(33): setting of constant failed
+19:04:52: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource StdQuad_vp.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:52: High-level program Ogre/Compositor/StdQuad_Tex3_vp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource StdQuad_vp.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:52: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:52: Compiler error: invalid parameters in StdQuad_vp.program(45): setting of constant failed
+19:04:52: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource StdQuad_vp.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:52: High-level program Ogre/Compositor/StdQuad_Tex4_vp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource StdQuad_vp.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:52: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:52: Compiler error: invalid parameters in StdQuad_vp.program(57): setting of constant failed
+19:04:52: Parsing script apache_body.material
+19:04:52: Parsing script autoterraintexture.material
+19:04:52: Compiler error: number expected in autoterraintexture.material(43): incorrect float constant declaration
+19:04:52: Parsing script ball.material
+19:04:52: Parsing script capsule.material
+19:04:52: Parsing script crate.material
+19:04:52: Parsing script door.material
+19:04:52: Parsing script Escena01.material
+19:04:52: Parsing script gun.material
+19:04:52: Parsing script jeep_body.material
+19:04:52: Parsing script jeep_wheell.material
+19:04:52: Parsing script jeep_wheelr.material
+19:04:52: Parsing script kk3d.material
+19:04:52: Parsing script landscape.material
+19:04:52: Parsing script main_rotor.material
+19:04:52: Parsing script PE_materials.material
+19:04:52: Parsing script plane.material
+19:04:52: Parsing script racingcircuit.material
+19:04:52: Parsing script scooby_body.material
+19:04:52: Parsing script scooby_wheel.material
+19:04:52: Parsing script tail_rotor.material
+19:04:52: Parsing script target.material
+19:04:52: Parsing script zombie.material
+19:04:52: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: High-level program Ogre/HardwareSkinningOneWeight encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: High-level program Ogre/HardwareSkinningOneWeightShadowCaster encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: Parsing script apache_body.material
+19:04:53: Parsing script ASCII.material
+19:04:53: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ASCIIFP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: High-level program Ogre/Compositor/ASCIIFP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ASCIIFP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:53: Compiler error: invalid parameters in ASCII.material(9): setting of constant failed
+19:04:53: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:53: Compiler error: invalid parameters in ASCII.material(10): setting of constant failed
+19:04:53: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:53: Compiler error: invalid parameters in ASCII.material(11): setting of constant failed
+19:04:53: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:53: Compiler error: invalid parameters in ASCII.material(12): setting of constant failed
+19:04:53: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:53: Compiler error: invalid parameters in ASCII.material(13): setting of constant failed
+19:04:53: Parsing script ASMSwizzle.material
+19:04:53: Compiler error: object unsupported by render system in ASMSwizzle.material(1)
+19:04:53: Parsing script autoterraintexture.material
+19:04:53: Compiler error: number expected in autoterraintexture.material(43): incorrect float constant declaration
+19:04:53: Parsing script bajo.material
+19:04:53: Parsing script ball.material
+19:04:53: Parsing script BlackAndWhite.material
+19:04:53: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource GrayScale.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: High-level program Ogre/Compositor/B&W_FP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource GrayScale.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: Parsing script Bloom.material
+19:04:53: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Blur0_ps20.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: High-level program Blur0_ps20 encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Blur0_ps20.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Blur0_vs11.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: High-level program Blur0_vs11 encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Blur0_vs11.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Blur1_ps20.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: High-level program Blur1_ps20 encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Blur1_ps20.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Blur1_vs11.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: High-level program Blur1_vs11 encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Blur1_vs11.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: Parsing script Bloom2.material
+19:04:53: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource BlurH_ps20.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: High-level program BlurH_ps20_hlsl encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource BlurH_ps20.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Blur_vs11.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: High-level program Blur_vs11_hlsl encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Blur_vs11.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource BlurV_ps20.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: High-level program BlurV_ps20_hlsl encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource BlurV_ps20.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Bloom2_ps20.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: High-level program Bloom2_ps20_hlsl encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Bloom2_ps20.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:53: Compiler error: invalid parameters in Bloom2.material(232): setting of constant failed
+19:04:53: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:53: Compiler error: invalid parameters in Bloom2.material(233): setting of constant failed
+19:04:53: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource BrightBloom2_ps20.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: High-level program BrightBloom2_ps20_hlsl encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource BrightBloom2_ps20.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: Parsing script capsule.material
+19:04:53: Parsing script Casa.material
+19:04:53: Parsing script Catedral.material
+19:04:53: Parsing script Cesped.material
+19:04:53: Parsing script CGSwizzle.material
+19:04:53: Parsing script CompositorDemo.material
+19:04:53: Parsing script crate.material
+19:04:53: Parsing script DepthShadowmap.material
+19:04:53: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DepthShadowmap.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: High-level program Ogre/DepthShadowmap/CasterVP_HLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DepthShadowmap.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:53: Compiler error: invalid parameters in DepthShadowmap.material(14): setting of constant failed
+19:04:53: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:53: Compiler error: invalid parameters in DepthShadowmap.material(15): setting of constant failed
+19:04:53: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DepthShadowmap.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: High-level program Ogre/DepthShadowmap/CasterFP_HLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DepthShadowmap.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DepthShadowmap.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: High-level program Ogre/DepthShadowmap/ReceiverVP_HLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DepthShadowmap.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:53: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(45): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(46): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(47): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(48): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(49): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(50): setting of constant failed
+19:04:54: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DepthShadowmap.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: High-level program Ogre/DepthShadowmap/ReceiverFP_HLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DepthShadowmap.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(66): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(67): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(68): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(69): setting of constant failed
+19:04:54: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DepthShadowmap.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: High-level program Ogre/DepthShadowmap/ReceiverFPPCF_HLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DepthShadowmap.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(84): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(85): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(86): setting of constant failed
+19:04:54: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DepthShadowmap.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: High-level program Ogre/DepthShadowmap/NormalMapReceiverVP_HLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DepthShadowmap.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(100): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(101): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(102): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(103): setting of constant failed
+19:04:54: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DepthShadowmap.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: High-level program Ogre/DepthShadowmap/NormalMapReceiverFP_HLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DepthShadowmap.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(118): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(119): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(120): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(121): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(122): setting of constant failed
+19:04:54: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DepthShadowmap.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: High-level program Ogre/DepthShadowmap/NormalMapReceiverFPPCF_HLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DepthShadowmap.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(136): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(137): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(138): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(139): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in DepthShadowmap.material(140): setting of constant failed
+19:04:54: Parsing script Dither.material
+19:04:54: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DitherFP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: High-level program Ogre/Compositor/DitherFP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DitherFP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: Parsing script DOF.material
+19:04:54: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DOF_ps.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: High-level program DOF_Blur_ps encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DOF_ps.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DOF_ps.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: High-level program DOF_Blend_ps encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource DOF_ps.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: Parsing script door.material
+19:04:54: Parsing script Embossed.material
+19:04:54: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource GrayScale.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: High-level program Ogre/Compositor/Embossed_FP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource GrayScale.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: Parsing script escalera.material
+19:04:54: Parsing script Example-DynTex.material
+19:04:54: Parsing script Example-Water.material
+19:04:54: Parsing script Example.material
+19:04:54: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource hdr.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: High-level program Examples/MorningSkyBoxHDRfp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource hdr.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource hdr.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: High-level program Examples/MorningCubeMapHDRfp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource hdr.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: High-level program Examples/GrassWaverVp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in Example.material(760): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in Example.material(762): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in Example.material(764): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in Example.material(765): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in Example.material(766): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in Example.material(768): setting of constant failed
+19:04:54: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: High-level program Examples/GrassWaverTexVp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in Example.material(780): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in Example.material(781): setting of constant failed
+19:04:54: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: High-level program Examples/GrassWaverAmbientVp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in Example.material(792): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in Example.material(793): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in Example.material(794): setting of constant failed
+19:04:54: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: High-level program Examples/GrassWaverAmbientFp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: High-level program Examples/GrassWaverCasterVp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in Example.material(815): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in Example.material(816): setting of constant failed
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:54: Compiler error: invalid parameters in Example.material(817): setting of constant failed
+19:04:54: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: High-level program Examples/GrassWaverCasterFp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: High-level program Examples/GrassWaverReceiverVp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:54: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:55: Compiler error: invalid parameters in Example.material(838): setting of constant failed
+19:04:55: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:55: Compiler error: invalid parameters in Example.material(839): setting of constant failed
+19:04:55: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:55: Compiler error: invalid parameters in Example.material(840): setting of constant failed
+19:04:55: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:55: Compiler error: invalid parameters in Example.material(842): setting of constant failed
+19:04:55: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:55: Compiler error: invalid parameters in Example.material(844): setting of constant failed
+19:04:55: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:55: Compiler error: invalid parameters in Example.material(845): setting of constant failed
+19:04:55: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:55: Compiler error: invalid parameters in Example.material(847): setting of constant failed
+19:04:55: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: High-level program Examples/GrassWaverReceiverFp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:55: Compiler error: invalid parameters in Example.material(861): setting of constant failed
+19:04:55: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:55: Compiler error: invalid parameters in Example.material(862): setting of constant failed
+19:04:55: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:55: Compiler error: invalid parameters in Example.material(863): setting of constant failed
+19:04:55: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: High-level program Ogre/HardwareSkinningTwoWeightsShadowCasterCg encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:55: Compiler error: invalid parameters in Example.material(1533): setting of constant failed
+19:04:55: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:55: Compiler error: invalid parameters in Example.material(1534): setting of constant failed
+19:04:55: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:55: Compiler error: invalid parameters in Example.material(1535): setting of constant failed
+19:04:55: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: High-level program Examples/ShowTangents_v encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:55: Compiler error: invalid parameters in Example.material(1605): setting of constant failed
+19:04:55: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: High-level program Examples/ShowNormals_v encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:55: Compiler error: invalid parameters in Example.material(1615): setting of constant failed
+19:04:55: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: High-level program Examples/ShowUV_p encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: High-level program Examples/ShowUVdir3D encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: Parsing script Examples-Advanced.material
+19:04:55: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_CelShading.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: High-level program Ogre/CelShadingVP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_CelShading.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:55: Compiler error: invalid parameters in Examples-Advanced.material(12): setting of constant failed
+19:04:55: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:55: Compiler error: invalid parameters in Examples-Advanced.material(13): setting of constant failed
+19:04:55: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:55: Compiler error: invalid parameters in Examples-Advanced.material(14): setting of constant failed
+19:04:55: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:55: Compiler error: invalid parameters in Examples-Advanced.material(15): setting of constant failed
+19:04:55: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_CelShading.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: High-level program Ogre/CelShadingFP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_CelShading.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: High-level program Examples/BumpMapVP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: High-level program Examples/BumpMapFP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: High-level program Examples/BumpMapVPShadowRcv encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: High-level program Examples/BumpMapFPShadowRcv encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: High-level program Examples/BumpMapVPSpecular encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: High-level program Examples/BumpMapFPSpecular encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: High-level program Examples/BumpMapVPTangentParity encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Projection.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: High-level program Examples/TexProjectionVP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Projection.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:55: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Projection.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: High-level program Examples/TexProjectionFP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Projection.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Fresnel.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: High-level program Examples/FresnelRefractReflectVP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Fresnel.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Fresnel.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: High-level program Examples/FresnelRefractReflectFP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Fresnel.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Fresnel.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: High-level program Examples/FresnelRefractReflectVPold encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Fresnel.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: Parsing script Examples-DynTex.material
+19:04:56: Parsing script Examples-Water.material
+19:04:56: Parsing script Examples.material
+19:04:56: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: High-level program Examples/GrassWaverVp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(835): setting of constant failed
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(837): setting of constant failed
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(839): setting of constant failed
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(840): setting of constant failed
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(841): setting of constant failed
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(843): setting of constant failed
+19:04:56: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: High-level program Examples/GrassWaverTexVp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(855): setting of constant failed
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(856): setting of constant failed
+19:04:56: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: High-level program Examples/GrassWaverAmbientVp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(867): setting of constant failed
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(868): setting of constant failed
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(869): setting of constant failed
+19:04:56: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: High-level program Examples/GrassWaverAmbientFp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: High-level program Examples/GrassWaverFp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: High-level program Examples/GrassWaverCasterVp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(899): setting of constant failed
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(900): setting of constant failed
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(901): setting of constant failed
+19:04:56: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: High-level program Examples/GrassWaverCasterFp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: High-level program Examples/GrassWaverReceiverVp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(922): setting of constant failed
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(923): setting of constant failed
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(924): setting of constant failed
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(926): setting of constant failed
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(928): setting of constant failed
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(929): setting of constant failed
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(931): setting of constant failed
+19:04:56: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: High-level program Examples/GrassWaverReceiverFp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(945): setting of constant failed
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(946): setting of constant failed
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(947): setting of constant failed
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(1624): setting of constant failed
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(1625): setting of constant failed
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(1626): setting of constant failed
+19:04:56: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: High-level program Examples/ShowTangents_v encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(1696): setting of constant failed
+19:04:56: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: High-level program Examples/ShowNormals_v encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:56: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:56: Compiler error: invalid parameters in Examples.material(1706): setting of constant failed
+19:04:56: Parsing script facial.material
+19:04:56: Parsing script Fer.material
+19:04:56: Parsing script ferpersonaje.material
+19:04:57: Parsing script fuego.material
+19:04:57: Parsing script Glass.material
+19:04:57: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource GlassFP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: High-level program Ogre/Compositor/GlassFP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource GlassFP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: Parsing script GLSLSwizzle.material
+19:04:57: Parsing script gun.material
+19:04:57: Parsing script Halftone.material
+19:04:57: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HalftoneFP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: High-level program Ogre/Compositor/HalftoneFP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HalftoneFP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:57: Compiler error: invalid parameters in Halftone.material(9): setting of constant failed
+19:04:57: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:57: Compiler error: invalid parameters in Halftone.material(10): setting of constant failed
+19:04:57: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:57: Compiler error: invalid parameters in Halftone.material(11): setting of constant failed
+19:04:57: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:57: Compiler error: invalid parameters in Halftone.material(12): setting of constant failed
+19:04:57: Parsing script hdr.material
+19:04:57: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource hdr.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: High-level program Ogre/Compositor/HDR/downscale2x2LuminenceHLSL_fp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource hdr.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:57: Compiler error: invalid parameters in hdr.material(22): setting of constant failed
+19:04:57: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource hdr.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: High-level program Ogre/Compositor/HDR/downscale3x3HLSL_fp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource hdr.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:57: Compiler error: invalid parameters in hdr.material(74): setting of constant failed
+19:04:57: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource hdr.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: High-level program Ogre/Compositor/HDR/downscale3x3brightpassHLSL_fp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource hdr.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:57: Compiler error: invalid parameters in hdr.material(134): setting of constant failed
+19:04:57: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource hdr.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: High-level program Ogre/Compositor/HDR/bloomHLSL_fp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource hdr.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource hdr.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: High-level program Ogre/Compositor/HDR/finaltonemappingHLSL_fp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource hdr.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: Parsing script HeatVision.material
+19:04:57: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HeatVision.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: High-level program Fury/HeatVision/HeatCaster_vp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HeatVision.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HeatVision.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: High-level program Fury/HeatVision/HeatCaster_fp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HeatVision.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HeatVision.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: High-level program Fury/HeatVision/ColdCaster_vp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HeatVision.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HeatVision.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: High-level program Fury/HeatVision/ColdCaster_fp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HeatVision.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HeatVision.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: High-level program Fury/HeatVision/LightToHeat_vp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HeatVision.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:57: Compiler error: invalid parameters in HeatVision.material(90): setting of constant failed
+19:04:57: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HeatVision.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: High-level program Fury/HeatVision/LightToHeat_fp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HeatVision.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HeatVision.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: High-level program Fury/HeatVision/Blur_vp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HeatVision.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:57: Compiler error: invalid parameters in HeatVision.material(168): setting of constant failed
+19:04:57: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HeatVision.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: High-level program Fury/HeatVision/Blur_fp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource HeatVision.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: Parsing script Hurt.material
+19:04:57: Parsing script instancing.material
+19:04:57: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource instancing.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: High-level program InstancingCg encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource instancing.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:57: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:57: Compiler error: invalid parameters in instancing.material(10): setting of constant failed
+19:04:57: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:57: Compiler error: invalid parameters in instancing.material(11): setting of constant failed
+19:04:57: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:57: Compiler error: invalid parameters in instancing.material(12): setting of constant failed
+19:04:57: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:57: Compiler error: invalid parameters in instancing.material(13): setting of constant failed
+19:04:57: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:57: Compiler error: invalid parameters in instancing.material(14): setting of constant failed
+19:04:57: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource instancing.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: High-level program InstancingShadowCasterCg encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource instancing.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in instancing.material(24): setting of constant failed
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in instancing.material(25): setting of constant failed
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in instancing.material(26): setting of constant failed
+19:04:58: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource instancing.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: High-level program CrowdCg encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource instancing.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in instancing.material(36): setting of constant failed
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in instancing.material(37): setting of constant failed
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in instancing.material(38): setting of constant failed
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in instancing.material(39): setting of constant failed
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in instancing.material(40): setting of constant failed
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in instancing.material(41): setting of constant failed
+19:04:58: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource instancing.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: High-level program CrowdShadowCasterCg encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource instancing.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in instancing.material(51): setting of constant failed
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in instancing.material(52): setting of constant failed
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in instancing.material(53): setting of constant failed
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in instancing.material(54): setting of constant failed
+19:04:58: Parsing script Invert.material
+19:04:58: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource InvertFP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: High-level program Ogre/Compositor/InvertFP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource InvertFP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: Parsing script IsoSurf.material
+19:04:58: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource isosurf.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: High-level program Ogre/IsoSurf/SampleFieldVS encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource isosurf.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in IsoSurf.material(22): setting of constant failed
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in IsoSurf.material(23): setting of constant failed
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in IsoSurf.material(24): setting of constant failed
+19:04:58: Parsing script jeep_body.material
+19:04:58: Parsing script jeep_wheell.material
+19:04:58: Parsing script jeep_wheelr.material
+19:04:58: Parsing script kk3d.material
+19:04:58: Parsing script landscape.material
+19:04:58: Parsing script Laplace.material
+19:04:58: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource LaplaceFP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: High-level program Ogre/Compositor/LaplaceFP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource LaplaceFP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: Parsing script main_rotor.material
+19:04:58: Parsing script MotionBlur.material
+19:04:58: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Combine_fp.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: High-level program Ogre/Compositor/Combine_fp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Combine_fp.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in MotionBlur.material(9): setting of constant failed
+19:04:58: Parsing script MRTtest.material
+19:04:58: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource mrttestfp.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: High-level program Ogre/MRTtest/scenefp/HLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource mrttestfp.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource mrttestfp.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: High-level program Ogre/MRTtest/quadfp/HLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource mrttestfp.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: Parsing script NightVision.material
+19:04:58: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource NightVisionFP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: High-level program Ogre/Compositor/NightVisionFP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource NightVisionFP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in NightVision.material(9): setting of constant failed
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in NightVision.material(10): setting of constant failed
+19:04:58: Parsing script Ocean.material
+19:04:58: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource oceanHLSL_Cg.vert in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: High-level program HLSL/OceanVS encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource oceanHLSL_Cg.vert in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in Ocean.material(10): setting of constant failed
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in Ocean.material(11): setting of constant failed
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in Ocean.material(12): setting of constant failed
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in Ocean.material(13): setting of constant failed
+19:04:58: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource oceanHLSL_Cg.frag in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: High-level program HLSL/OceanFS encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource oceanHLSL_Cg.frag in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource oceanHLSL_Cg.vert in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: High-level program Cg/OceanVS encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource oceanHLSL_Cg.vert in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in Ocean.material(133): setting of constant failed
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in Ocean.material(134): setting of constant failed
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in Ocean.material(135): setting of constant failed
+19:04:58: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:58: Compiler error: invalid parameters in Ocean.material(136): setting of constant failed
+19:04:58: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource oceanHLSL_Cg.frag in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: High-level program Cg/OceanFS encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource oceanHLSL_Cg.frag in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Ocean2HLSL_Cg.vert in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: High-level program Cg/Ocean2VS encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Ocean2HLSL_Cg.vert in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:59: Compiler error: invalid parameters in Ocean.material(196): setting of constant failed
+19:04:59: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:59: Compiler error: invalid parameters in Ocean.material(197): setting of constant failed
+19:04:59: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Ocean2HLSL_Cg.frag in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: High-level program Cg/Ocean2FS encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Ocean2HLSL_Cg.frag in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Ocean2HLSL_Cg.vert in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: High-level program HLSL/Ocean2VS encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Ocean2HLSL_Cg.vert in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:59: Compiler error: invalid parameters in Ocean.material(268): setting of constant failed
+19:04:59: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:59: Compiler error: invalid parameters in Ocean.material(269): setting of constant failed
+19:04:59: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Ocean2HLSL_Cg.frag in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: High-level program HLSL/Ocean2FS encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Ocean2HLSL_Cg.frag in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: Parsing script OffsetMapping.material
+19:04:59: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource OffsetMapping.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: High-level program Examples/OffsetMappingVP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource OffsetMapping.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource OffsetMapping.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: High-level program Examples/OffsetMappingFP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource OffsetMapping.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource OffsetMapping.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: High-level program Examples/OffsetMappingIntegratedShadowsVPhlsl encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource OffsetMapping.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:59: Compiler error: invalid parameters in OffsetMapping.material(199): setting of constant failed
+19:04:59: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:59: Compiler error: invalid parameters in OffsetMapping.material(200): setting of constant failed
+19:04:59: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:59: Compiler error: invalid parameters in OffsetMapping.material(201): setting of constant failed
+19:04:59: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:59: Compiler error: invalid parameters in OffsetMapping.material(202): setting of constant failed
+19:04:59: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:59: Compiler error: invalid parameters in OffsetMapping.material(204): setting of constant failed
+19:04:59: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:59: Compiler error: invalid parameters in OffsetMapping.material(205): setting of constant failed
+19:04:59: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:59: Compiler error: invalid parameters in OffsetMapping.material(207): setting of constant failed
+19:04:59: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:59: Compiler error: invalid parameters in OffsetMapping.material(208): setting of constant failed
+19:04:59: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:59: Compiler error: invalid parameters in OffsetMapping.material(209): setting of constant failed
+19:04:59: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource OffsetMapping.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: High-level program Examples/OffsetMappingIntegratedShadowsFPhlsl encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource OffsetMapping.hlsl in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:59: Compiler error: invalid parameters in OffsetMapping.material(215): setting of constant failed
+19:04:59: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:59: Compiler error: invalid parameters in OffsetMapping.material(216): setting of constant failed
+19:04:59: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:59: Compiler error: invalid parameters in OffsetMapping.material(218): setting of constant failed
+19:04:59: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:59: Compiler error: invalid parameters in OffsetMapping.material(219): setting of constant failed
+19:04:59: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:59: Compiler error: invalid parameters in OffsetMapping.material(221): setting of constant failed
+19:04:59: Parsing script Ogre.material
+19:04:59: Parsing script OldMovie.material
+19:04:59: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource OldMovieFP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: High-level program Ogre/Compositor/OldMovieFP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource OldMovieFP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: Parsing script OldTV.material
+19:04:59: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource OldTV.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: High-level program Ogre/Compositor/OldTV_FP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource OldTV.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: Parsing script pared.material
+19:04:59: Parsing script paredes.material
+19:04:59: Parsing script ParticleGS.material
+19:04:59: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ParticleGS.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: High-level program Ogre/ParticleGS/GenerateVS encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ParticleGS.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ParticleGS.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: High-level program Ogre/ParticleGS/DisplayVS encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ParticleGS.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ParticleGS.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: High-level program Ogre/ParticleGS/DisplayPS encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ParticleGS.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: Parsing script Penguin.material
+19:04:59: Parsing script PE_materials.material
+19:04:59: Parsing script plane.material
+19:04:59: Parsing script Plano.material
+19:04:59: Parsing script Posterize.material
+19:04:59: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource PosterizeFP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: High-level program Ogre/Compositor/PosterizeFP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource PosterizeFP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: Parsing script primerPiso.material
+19:04:59: Parsing script pssm.material
+19:04:59: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource pssm.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: High-level program PSSM/shadow_caster_vs encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource pssm.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:59: Compiler error: invalid parameters in pssm.material(13): setting of constant failed
+19:04:59: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource pssm.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: High-level program PSSM/shadow_caster_ps encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource pssm.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource pssm.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: High-level program PSSM/shadow_receiver_vs encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource pssm.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:04:59: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:04:59: Compiler error: invalid parameters in pssm.material(63): setting of constant failed
+19:04:59: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in pssm.material(64): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in pssm.material(65): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in pssm.material(66): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in pssm.material(67): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in pssm.material(68): setting of constant failed
+19:05:00: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource pssm.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: High-level program PSSM/shadow_receiver_ps encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource pssm.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in pssm.material(83): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in pssm.material(84): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in pssm.material(85): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in pssm.material(86): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in pssm.material(87): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in pssm.material(88): setting of constant failed
+19:05:00: Parsing script racingcircuit.material
+19:05:00: Parsing script RadialBlur.material
+19:05:00: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Radial_Blur_FP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: High-level program Radial_Blur_ps_cg encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Radial_Blur_FP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: Parsing script RZR-002.material
+19:05:00: Parsing script Scene.material
+19:05:00: Parsing script scooby_body.material
+19:05:00: Parsing script scooby_wheel.material
+19:05:00: Parsing script ShaderSystem.material
+19:05:00: Parsing script shadows.material
+19:05:00: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource depthshadowobject.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: High-level program Ogre/shadow/caster/depth/vp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource depthshadowobject.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in shadows.material(12): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in shadows.material(13): setting of constant failed
+19:05:00: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource depthshadowobject.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: High-level program Ogre/shadow/caster/depth/fp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource depthshadowobject.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource depthshadowobject.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: High-level program Ogre/shadow/receiver/depth/pssm3/vp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource depthshadowobject.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in shadows.material(40): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in shadows.material(41): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in shadows.material(42): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in shadows.material(43): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in shadows.material(44): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in shadows.material(45): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in shadows.material(47): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in shadows.material(48): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in shadows.material(49): setting of constant failed
+19:05:00: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource depthshadowobject.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: High-level program Ogre/shadow/receiver/depth/pssm3/fp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource depthshadowobject.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in shadows.material(62): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in shadows.material(64): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in shadows.material(65): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in shadows.material(66): setting of constant failed
+19:05:00: Parsing script SharpenEdges.material
+19:05:00: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource SharpenEdgesFP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: High-level program Ogre/Compositor/SharpenEdgesFP_ps_2_a encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource SharpenEdgesFP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in SharpenEdges.material(22): setting of constant failed
+19:05:00: Parsing script sibenik.material
+19:05:00: Parsing script silla.material
+19:05:00: Parsing script smoke.material
+19:05:00: Parsing script SueloCesped.material
+19:05:00: Parsing script tail_rotor.material
+19:05:00: Parsing script target.material
+19:05:00: Parsing script Templo.material
+19:05:00: Parsing script Tiling.material
+19:05:00: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource TilingFP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: High-level program Ogre/Compositor/TilingFP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource TilingFP.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: Parsing script TRex.material
+19:05:00: Parsing script VarianceShadowmap.material
+19:05:00: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource varianceshadowcastervp.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: High-level program VarianceShadowMapping/ShadowCasterVP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource varianceshadowcastervp.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in VarianceShadowmap.material(13): setting of constant failed
+19:05:00: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource varianceshadowcasterfp.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: High-level program VarianceShadowMapping/ShadowCasterFP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource varianceshadowcasterfp.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in VarianceShadowmap.material(25): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in VarianceShadowmap.material(26): setting of constant failed
+19:05:00: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource varianceshadowreceivervp.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: High-level program VarianceShadowMapping/ShadowReceiverVP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource varianceshadowreceivervp.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in VarianceShadowmap.material(61): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in VarianceShadowmap.material(62): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in VarianceShadowmap.material(63): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in VarianceShadowmap.material(64): setting of constant failed
+19:05:00: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource varianceshadowreceiverfp.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: High-level program VarianceShadowMapping/ShadowReceiverFP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource varianceshadowreceiverfp.cg in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in VarianceShadowmap.material(76): setting of constant failed
+19:05:00: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1423)
+19:05:00: Compiler error: invalid parameters in VarianceShadowmap.material(77): setting of constant failed
+19:05:00: Parsing script zombie.material
+19:05:00: Parsing script OgreCore.material
+19:05:00: Parsing script OgreProfiler.material
+19:05:00: Parsing script myExplosion.particle
+19:05:00: Parsing script ogreodedemos.particle
+19:05:00: Parsing script myExplosion.particle
+19:05:00: Parsing script ogreodedemos.particle
+19:05:00: Parsing script myExplosion.particle
+19:05:00: Parsing script ogreodedemos.particle
+19:05:01: Parsing script Examples.compositor
+19:05:01: Parsing script Ogre.fontdef
+19:05:01: Parsing script ogreodedemos.overlay
+19:05:01: Texture: target.png: Loading 1 faces(PF_A8R8G8B8,45x45x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,45x45x1.
+19:05:01: Parsing script ogreodedemos.overlay
+19:05:01: Skipping loading overlay include: 'ogreodedemos.overlay as it is already loaded.
+19:05:01: Parsing script ogreodedemos.overlay
+19:05:01: Skipping loading overlay include: 'ogreodedemos.overlay as it is already loaded.
+19:05:01: Parsing script OgreDebugPanel.overlay
+19:05:01: Skipping loading overlay include: 'OgreDebugPanel.overlay as it is already loaded.
+19:05:01: Parsing script OgreLoadingPanel.overlay
+19:05:01: Skipping loading overlay include: 'OgreLoadingPanel.overlay as it is already loaded.
+19:05:01: Finished parsing scripts for resource group General
+19:05:01: Parsing scripts for resource group Internal
+19:05:01: Finished parsing scripts for resource group Internal
+19:05:01: Parsing scripts for resource group OgreOde
+19:05:01: Finished parsing scripts for resource group OgreOde
+19:05:01: Texture: clouds.jpg: Loading 1 faces(PF_R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
+19:05:01: ERROR in sf_OIS.py: Could not find overlay POCore/DebugOverlay
+19:05:01: ERROR in sf_OIS.py: Could not find overlay POCore/DebugOverlay
+19:05:01: Texture: spot_shadow_fade.png: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+19:05:02: MovableObjectFactory for type 'ODERagdoll' registered.
+19:05:08: Mesh: Loading FerPersonaje.mesh.
+19:05:08: Skeleton: Loading FerPersonaje.skeleton
+19:05:08: WARNING: FerPersonaje.mesh is an older format ([MeshSerializer_v1.40]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+19:05:08: Can't assign material shadeless black/SOLID/TEX/caraPelo.jpg/VertCol to SubEntity of personaje0 because this Material does not exist. Have you forgotten to define it in a .material script?
+19:05:08: Texture: caraPelo.jpg: Loading 1 faces(PF_R8G8B8,640x480x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,640x480x1.
+19:05:08: Texture: camiseta.png: Loading 1 faces(PF_R8G8B8,434x586x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,434x586x1.
+19:05:08: Texture: converseRojas.jpg: Loading 1 faces(PF_R8G8B8,470x470x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,470x470x1.
+19:05:09: Texture: PantalonVaquero.jpg: Loading 1 faces(PF_R8G8B8,259x330x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,259x330x1.
+19:05:09: Texture: camisetaPorDetras.png: Loading 1 faces(PF_R8G8B8,434x586x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,434x586x1.
+19:05:09: Texture: CaraLado.jpg: Loading 1 faces(PF_R8G8B8,570x566x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,570x566x1.
+19:05:09: WARNING: the mesh 'FerPersonaje.mesh' includes vertices without bone assignments. Those vertices will transform to wrong position when skeletal animation enabled. To eliminate this, assign at least one bone assignment per vertex on your mesh.
+19:05:09: WARNING: the mesh 'FerPersonaje.mesh' includes vertices without bone assignments. Those vertices will transform to wrong position when skeletal animation enabled. To eliminate this, assign at least one bone assignment per vertex on your mesh.
+19:05:09: WARNING: the mesh 'FerPersonaje.mesh' includes vertices with more than 4 bone assignments. The lowest weighted assignments beyond this limit have been removed, so your animation may look slightly different. To eliminate this, reduce the number of bone assignments per vertex on your mesh to 4.
+19:05:09: WARNING: the mesh 'FerPersonaje.mesh' includes vertices with more than 4 bone assignments. The lowest weighted assignments beyond this limit have been removed, so your animation may look slightly different. To eliminate this, reduce the number of bone assignments per vertex on your mesh to 4.
+19:05:09: WARNING: the mesh 'FerPersonaje.mesh' includes vertices with more than 4 bone assignments. The lowest weighted assignments beyond this limit have been removed, so your animation may look slightly different. To eliminate this, reduce the number of bone assignments per vertex on your mesh to 4.
+19:05:09: WARNING: the mesh 'FerPersonaje.mesh' includes vertices without bone assignments. Those vertices will transform to wrong position when skeletal animation enabled. To eliminate this, assign at least one bone assignment per vertex on your mesh.
+19:05:09: Can't assign material shadeless black/SOLID/TEX/caraPelo.jpg/VertCol to SubEntity of personaje1 because this Material does not exist. Have you forgotten to define it in a .material script?
+19:05:09: Mesh: Loading pPlaneShape7.mesh.
+19:05:09: Texture: BaldosasSuelo.jpg: Loading 1 faces(PF_R8G8B8,1694x1694x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1694x1694x1.
+19:05:10: Mesh: Loading pPlaneShape8.mesh.
+19:05:10: Mesh: Loading pPlaneShape9.mesh.
+19:05:10: Mesh: Loading pPlaneShape10.mesh.
+19:05:10: Mesh: Loading pPlaneShape11.mesh.
+19:05:10: Mesh: Loading pPlaneShape12.mesh.
+19:05:10: Mesh: Loading pPlaneShape13.mesh.
+19:05:10: Mesh: Loading pPlaneShape14.mesh.
+19:05:10: Mesh: Loading pPlaneShape15.mesh.
+19:05:10: Mesh: Loading pPlaneShape16.mesh.
+19:05:10: Mesh: Loading pPlaneShape21.mesh.
+19:05:11: Texture: TablasPasillo.jpg: Loading 1 faces(PF_R8G8B8,1840x1840x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1840x1840x1.
+19:05:12: Mesh: Loading pCubeShape1.mesh.
+19:05:12: Mesh: Loading pCubeShape2.mesh.
+19:05:12: Mesh: Loading pCubeShape3.mesh.
+19:05:12: Mesh: Loading pPlaneShape22.mesh.
+19:05:12: Mesh: Loading pPlaneShape23.mesh.
+19:05:12: Mesh: Loading pCubeShape4.mesh.
+19:05:12: Mesh: Loading pPlaneShape24.mesh.
+19:05:12: Texture: Pared.jpg: Loading 1 faces(PF_R8G8B8,1840x1840x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1840x1840x1.
+19:05:13: Mesh: Loading pPlaneShape25.mesh.
+19:05:13: Mesh: Loading pPlaneShape26.mesh.
+19:05:13: Mesh: Loading pPlaneShape27.mesh.
+19:05:13: Mesh: Loading pPlaneShape28.mesh.
+19:05:13: Mesh: Loading pPlaneShape29.mesh.
+19:05:13: Mesh: Loading pCubeShape5.mesh.
+19:05:13: Mesh: Loading pPlaneShape30.mesh.
+19:05:13: Mesh: Loading pPlaneShape31.mesh.
+19:05:13: Mesh: Loading pCubeShape6.mesh.
+19:05:13: Mesh: Loading pCubeShape7.mesh.
+19:05:13: Mesh: Loading pCubeShape8.mesh.
+19:05:13: Mesh: Loading pPlaneShape32.mesh.
+19:05:13: Mesh: Loading pPlaneShape33.mesh.
+19:05:13: Mesh: Loading polySurfaceShape3.mesh.
+19:05:13: Texture: PuertaPlana.jpg: Loading 1 faces(PF_R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x1024x1.
+19:05:13: Mesh: Loading pCubeShape11.mesh.
+19:05:13: Mesh: Loading pCubeShape12.mesh.
+19:05:13: Mesh: Loading pPlaneShape34.mesh.
+19:05:13: Mesh: Loading pPlaneShape35.mesh.
+19:05:13: Mesh: Loading pPlaneShape36.mesh.
+19:05:13: Mesh: Loading pPlaneShape37.mesh.
+19:05:13: Mesh: Loading pPlaneShape38.mesh.
+19:05:13: Mesh: Loading pPlaneShape39.mesh.
+19:05:13: Mesh: Loading pPlaneShape40.mesh.
+19:05:13: Mesh: Loading pPlaneShape41.mesh.
+19:05:13: Mesh: Loading pPlaneShape42.mesh.
+19:05:13: Mesh: Loading pPlaneShape43.mesh.
+19:05:13: Mesh: Loading pPlaneShape44.mesh.
+19:05:13: Mesh: Loading pPlaneShape45.mesh.
+19:05:13: Mesh: Loading pPlaneShape46.mesh.
+19:05:13: Mesh: Loading pPlaneShape47.mesh.
+19:05:13: Mesh: Loading pPlaneShape48.mesh.
+19:05:13: Mesh: Loading pPlaneShape49.mesh.
+19:05:13: Mesh: Loading pPlaneShape50.mesh.
+19:05:13: Mesh: Loading pPlaneShape51.mesh.
+19:05:13: Mesh: Loading pPlaneShape52.mesh.
+19:05:13: Mesh: Loading pPlaneShape53.mesh.
+19:05:13: Mesh: Loading pPlaneShape54.mesh.
+19:05:13: Mesh: Loading pPlaneShape55.mesh.
+19:05:13: Mesh: Loading pPlaneShape56.mesh.
+19:05:13: Mesh: Loading pPlaneShape57.mesh.
+19:05:13: Mesh: Loading pPlaneShape58.mesh.
+19:05:13: Mesh: Loading pPlaneShape59.mesh.
+19:05:13: Mesh: Loading pPlaneShape60.mesh.
+19:05:13: Mesh: Loading pPlaneShape61.mesh.
+19:05:13: Mesh: Loading pPlaneShape62.mesh.
+19:05:13: Mesh: Loading pPlaneShape63.mesh.
+19:05:13: Mesh: Loading pPlaneShape64.mesh.
+19:05:13: Mesh: Loading pPlaneShape65.mesh.
+19:05:13: Mesh: Loading pPlaneShape66.mesh.
+19:05:13: Mesh: Loading pPlaneShape67.mesh.
+19:05:13: Mesh: Loading pPlaneShape68.mesh.
+19:05:13: Mesh: Loading pPlaneShape69.mesh.
+19:05:13: Mesh: Loading pPlaneShape70.mesh.
+19:05:13: Mesh: Loading pPlaneShape71.mesh.
+19:05:13: Mesh: Loading pPlaneShape72.mesh.
+19:05:13: Mesh: Loading pPlaneShape73.mesh.
+19:05:13: Mesh: Loading pPlaneShape74.mesh.
+19:05:13: Mesh: Loading pPlaneShape75.mesh.
+19:05:13: Mesh: Loading pPlaneShape76.mesh.
+19:05:13: Mesh: Loading pPlaneShape77.mesh.
+19:05:13: Mesh: Loading pPlaneShape78.mesh.
+19:05:13: Mesh: Loading pPlaneShape79.mesh.
+19:05:13: Mesh: Loading pPlaneShape80.mesh.
+19:05:13: Mesh: Loading pPlaneShape81.mesh.
+19:05:13: Mesh: Loading pPlaneShape82.mesh.
+19:05:13: Mesh: Loading pPlaneShape83.mesh.
+19:05:13: Mesh: Loading pPlaneShape84.mesh.
+19:05:13: Mesh: Loading pPlaneShape85.mesh.
+19:05:13: Mesh: Loading pPlaneShape87.mesh.
+19:05:13: Mesh: Loading pPlaneShape88.mesh.
+19:05:13: Mesh: Loading pPlaneShape89.mesh.
+19:05:13: Mesh: Loading pCubeShape13.mesh.
+19:05:13: Mesh: Loading pCubeShape14.mesh.
+19:05:14: Mesh: Loading polySurfaceShape2.mesh.
+19:05:14: Mesh: Loading pPlaneShape90.mesh.
+19:05:14: Mesh: Loading pPlaneShape91.mesh.
+19:05:14: Mesh: Loading pPlaneShape92.mesh.
+19:05:14: Mesh: Loading pPlaneShape93.mesh.
+19:05:14: Mesh: Loading pPlaneShape94.mesh.
+19:05:14: Mesh: Loading pPlaneShape95.mesh.
+19:05:14: Mesh: Loading pPlaneShape96.mesh.
+19:05:14: Mesh: Loading pPlaneShape97.mesh.
+19:05:14: Mesh: Loading polySurfaceShape3_1.mesh.
+19:05:14: Mesh: Loading pCubeShape15.mesh.
+19:05:14: Mesh: Loading pCubeShape16.mesh.
+19:05:14: Mesh: Loading polySurfaceShape4.mesh.
+19:05:14: Mesh: Loading pCubeShape17.mesh.
+19:05:14: Mesh: Loading pCubeShape18.mesh.
+19:05:14: Mesh: Loading pPlaneShape98.mesh.
+19:05:14: Mesh: Loading polySurfaceShape5.mesh.
+19:05:14: Mesh: Loading pCubeShape19.mesh.
+19:05:14: Mesh: Loading pCubeShape20.mesh.
+19:05:14: Mesh: Loading pPlaneShape99.mesh.
+19:05:14: Mesh: Loading pPlaneShape100.mesh.
+19:05:14: Mesh: Loading pPlaneShape101.mesh.
+19:05:14: Mesh: Loading pPlaneShape102.mesh.
+19:05:14: Mesh: Loading pPlaneShape103.mesh.
+19:05:14: Mesh: Loading polySurfaceShape6.mesh.
+19:05:14: Mesh: Loading pCubeShape21.mesh.
+19:05:14: Mesh: Loading pCubeShape22.mesh.
+19:05:14: Mesh: Loading pPlaneShape104.mesh.
+19:05:14: Mesh: Loading pPlaneShape105.mesh.
+19:05:14: Mesh: Loading polySurfaceShape7.mesh.
+19:05:14: Mesh: Loading pPlaneShape106.mesh.
+19:05:14: Mesh: Loading polySurfaceShape8.mesh.
+19:05:14: Mesh: Loading pCubeShape25.mesh.
+19:05:14: Mesh: Loading pCubeShape26.mesh.
+19:05:14: Mesh: Loading pPlaneShape108.mesh.
+19:05:14: Mesh: Loading pPlaneShape109.mesh.
+19:05:14: Mesh: Loading pPlaneShape110.mesh.
+19:05:14: Mesh: Loading pPlaneShape111.mesh.
+19:05:14: Mesh: Loading pPlaneShape112.mesh.
+19:05:14: Mesh: Loading pPlaneShape113.mesh.
+19:05:14: Mesh: Loading pPlaneShape114.mesh.
+19:05:14: Mesh: Loading pPlaneShape115.mesh.
+19:05:14: Mesh: Loading pPlaneShape116.mesh.
+19:05:14: Mesh: Loading pPlaneShape117.mesh.
+19:05:14: Mesh: Loading pCubeShape27.mesh.
+19:05:14: Mesh: Loading pPlaneShape118.mesh.
+19:05:14: Mesh: Loading pCubeShape28.mesh.
+19:05:14: Mesh: Loading pPlaneShape119.mesh.
+19:05:14: Mesh: Loading pPlaneShape120.mesh.
+19:05:14: Mesh: Loading pCubeShape29.mesh.
+19:05:14: Mesh: Loading polySurfaceShape9.mesh.
+19:05:14: Mesh: Loading pCubeShape30.mesh.
+19:05:14: Mesh: Loading pCubeShape31.mesh.
+19:05:14: Mesh: Loading pPlaneShape121.mesh.
+19:05:14: Mesh: Loading pPlaneShape122.mesh.
+19:05:14: Mesh: Loading pCubeShape32.mesh.
+19:05:14: Mesh: Loading pPlaneShape123.mesh.
+19:05:14: Mesh: Loading pPlaneShape124.mesh.
+19:05:14: Mesh: Loading polySurfaceShape10.mesh.
+19:05:14: Mesh: Loading pCubeShape33.mesh.
+19:05:14: Mesh: Loading pCubeShape34.mesh.
+19:05:14: Mesh: Loading polySurfaceShape11.mesh.
+19:05:14: Mesh: Loading pCubeShape35.mesh.
+19:05:14: Mesh: Loading pCubeShape36.mesh.
+19:05:14: Mesh: Loading pPlaneShape125.mesh.
+19:05:14: Mesh: Loading pPlaneShape126.mesh.
+19:05:14: Texture: PanelesTecho.jpg: Loading 1 faces(PF_R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x1024x1.
+19:05:14: Mesh: Loading pPlaneShape127.mesh.
+19:05:14: Mesh: Loading pPlaneShape128.mesh.
+19:05:14: Mesh: Loading pPlaneShape129.mesh.
+19:05:14: Mesh: Loading pPlaneShape130.mesh.
+19:05:14: Mesh: Loading pPlaneShape131.mesh.
+19:05:14: Mesh: Loading pPlaneShape132.mesh.
+19:05:14: Mesh: Loading pPlaneShape133.mesh.
+19:05:14: Mesh: Loading pPlaneShape134.mesh.
+19:05:14: Mesh: Loading pPlaneShape135.mesh.
+19:05:14: Mesh: Loading pPlaneShape136.mesh.
+19:05:14: Mesh: Loading pPlaneShape137.mesh.
+19:05:14: Mesh: Loading pPlaneShape138.mesh.
+19:05:14: Mesh: Loading pPlaneShape139.mesh.
+19:05:14: Mesh: Loading pPlaneShape140.mesh.
+19:05:14: Mesh: Loading pPlaneShape141.mesh.
+19:05:14: Mesh: Loading pPlaneShape142.mesh.
+19:05:14: Mesh: Loading pPlaneShape143.mesh.
+19:05:14: Mesh: Loading pPlaneShape144.mesh.
+19:05:14: Mesh: Loading pPlaneShape145.mesh.
+19:05:14: Mesh: Loading pPlaneShape146.mesh.
+19:05:14: Mesh: Loading pPlaneShape147.mesh.
+19:05:14: Mesh: Loading pPlaneShape148.mesh.
+19:05:14: Mesh: Loading pPlaneShape149.mesh.
+19:05:14: Mesh: Loading pPlaneShape150.mesh.
+19:05:14: Mesh: Loading pPlaneShape151.mesh.
+19:05:14: Mesh: Loading pPlaneShape152.mesh.
+19:05:14: Mesh: Loading pPlaneShape153.mesh.
+19:05:14: Mesh: Loading pPlaneShape154.mesh.
+19:05:14: Mesh: Loading pPlaneShape155.mesh.
+19:05:14: Mesh: Loading pPlaneShape156.mesh.
+19:05:14: Mesh: Loading pPlaneShape157.mesh.
+19:05:14: Mesh: Loading pPlaneShape158.mesh.
+19:05:14: Mesh: Loading pPlaneShape159.mesh.
+19:05:14: Mesh: Loading pPlaneShape160.mesh.
+19:05:14: Mesh: Loading pPlaneShape161.mesh.
+19:05:14: Mesh: Loading pPlaneShape162.mesh.
+19:05:14: Mesh: Loading pPlaneShape163.mesh.
+19:05:14: Mesh: Loading pPlaneShape164.mesh.
+19:05:14: Mesh: Loading pPlaneShape165.mesh.
+19:05:14: Mesh: Loading pPlaneShape166.mesh.
+19:05:14: Mesh: Loading pPlaneShape167.mesh.
+19:05:14: Mesh: Loading pPlaneShape168.mesh.
+19:05:14: Mesh: Loading pPlaneShape169.mesh.
+19:05:14: Mesh: Loading pPlaneShape170.mesh.
+19:05:14: Mesh: Loading pPlaneShape171.mesh.
+19:05:14: Mesh: Loading pPlaneShape172.mesh.
+19:05:14: Mesh: Loading pPlaneShape173.mesh.
+19:05:14: Mesh: Loading pPlaneShape174.mesh.
+19:05:14: Mesh: Loading pPlaneShape175.mesh.
+19:05:14: Mesh: Loading pPlaneShape176.mesh.
+19:05:14: Mesh: Loading pCubeShape37.mesh.
+19:05:14: Mesh: Loading pPlaneShape177.mesh.
+19:05:14: Mesh: Loading pPlaneShape178.mesh.
+19:05:14: Mesh: Loading pPlaneShape179.mesh.
+19:05:14: Mesh: Loading pPlaneShape180.mesh.
+19:05:14: Mesh: Loading pPlaneShape181.mesh.
+19:05:14: Mesh: Loading polySurfaceShape15.mesh.
+19:05:14: Mesh: Loading polySurfaceShape16.mesh.
+19:05:14: Mesh: Loading polySurfaceShape17.mesh.
+19:05:14: Mesh: Loading pPlaneShape182.mesh.
+19:05:14: Mesh: Loading pPlaneShape183.mesh.
+19:05:14: Mesh: Loading pPlaneShape184.mesh.
+19:05:14: Mesh: Loading pPlaneShape185.mesh.
+19:05:14: Mesh: Loading pPlaneShape186.mesh.
+19:05:14: Mesh: Loading pPlaneShape187.mesh.
+19:05:14: Mesh: Loading pPlaneShape188.mesh.
+19:05:14: Mesh: Loading pCubeShape38.mesh.
+19:05:14: Mesh: Loading pCubeShape39.mesh.
+19:05:14: Mesh: Loading pPlaneShape189.mesh.
+19:05:14: Mesh: Loading pPlaneShape190.mesh.
+19:05:14: Mesh: Loading pPlaneShape191.mesh.
+19:05:14: Mesh: Loading pPlaneShape192.mesh.
+19:05:14: Mesh: Loading pPlaneShape193.mesh.
+19:05:14: Mesh: Loading pCubeShape40.mesh.
+19:05:14: Mesh: Loading pPlaneShape200.mesh.
+19:05:14: Mesh: Loading pPlaneShape201.mesh.
+19:05:14: Mesh: Loading pPlaneShape202.mesh.
+19:05:14: Mesh: Loading pPlaneShape203.mesh.
+19:05:14: Mesh: Loading pPlaneShape204.mesh.
+19:05:14: Mesh: Loading pPlaneShape206.mesh.
+19:05:14: Mesh: Loading pPlaneShape207.mesh.
+19:05:14: Mesh: Loading pPlaneShape208.mesh.
+19:05:14: Mesh: Loading pPlaneShape209.mesh.
+19:05:14: Mesh: Loading pPlaneShape210.mesh.
+19:05:14: Mesh: Loading pPlaneShape211.mesh.
+19:05:14: Mesh: Loading pPlaneShape212.mesh.
+19:05:14: Mesh: Loading pPlaneShape213.mesh.
+19:05:14: Mesh: Loading pPlaneShape214.mesh.
+19:05:14: Mesh: Loading polySurfaceShape18.mesh.
+19:05:14: Mesh: Loading pCubeShape41.mesh.
+19:05:14: Mesh: Loading pCubeShape42.mesh.
+19:05:14: Mesh: Loading pCubeShape43.mesh.
+19:05:14: Mesh: Loading polySurfaceShape19.mesh.
+19:05:14: Mesh: Loading pPlaneShape215.mesh.
+19:05:14: Mesh: Loading pPlaneShape216.mesh.
+19:05:15: Mesh: Loading pCubeShape44.mesh.
+19:05:15: Mesh: Loading pCubeShape45.mesh.
+19:05:15: Mesh: Loading polySurfaceShape20.mesh.
+19:05:15: Mesh: Loading pCubeShape46.mesh.
+19:05:15: Mesh: Loading pCubeShape47.mesh.
+19:05:15: Mesh: Loading pCubeShape48.mesh.
+19:05:15: Mesh: Loading polySurfaceShape21.mesh.
+19:05:15: Mesh: Loading pPlaneShape217.mesh.
+19:05:15: Mesh: Loading pPlaneShape218.mesh.
+19:05:15: Mesh: Loading pCubeShape49.mesh.
+19:05:15: Mesh: Loading pCubeShape50.mesh.
+19:05:15: Mesh: Loading pPlaneShape219.mesh.
+19:05:15: Mesh: Loading pPlaneShape220.mesh.
+19:05:15: Mesh: Loading pPlaneShape221.mesh.
+19:05:15: Mesh: Loading pPlaneShape222.mesh.
+19:05:15: Mesh: Loading pPlaneShape226.mesh.
+19:05:15: Mesh: Loading pPlaneShape227.mesh.
+19:05:15: Mesh: Loading pPlaneShape233.mesh.
+19:05:15: Mesh: Loading pPlaneShape234.mesh.
+19:05:15: Mesh: Loading pPlaneShape235.mesh.
+19:05:15: Mesh: Loading pPlaneShape236.mesh.
+19:05:15: Mesh: Loading pPlaneShape237.mesh.
+19:05:15: Mesh: Loading pPlaneShape238.mesh.
+19:05:15: Mesh: Loading pPlaneShape239.mesh.
+19:05:15: Mesh: Loading pPlaneShape240.mesh.
+19:05:15: Mesh: Loading pPlaneShape241.mesh.
+19:05:15: Mesh: Loading pPlaneShape242.mesh.
+19:05:15: Mesh: Loading pPlaneShape243.mesh.
+19:05:15: Mesh: Loading pPlaneShape247.mesh.
+19:05:15: Mesh: Loading pPlaneShape248.mesh.
+19:05:15: Mesh: Loading pPlaneShape249.mesh.
+19:05:15: Mesh: Loading pPlaneShape250.mesh.
+19:05:15: Mesh: Loading pPlaneShape251.mesh.
+19:05:15: Mesh: Loading 19:05:42: OGRE EXCEPTION(4:ItemIdentityException): A factory of type 'ODERagdoll' already exists. in Root::addMovableObjectFactory at ..\..\..\..\OgreMain\src\OgreRoot.cpp (line 1423)
+19:05:43: OGRE EXCEPTION(5:ItemIdentityException): SceneNode 'DotSceneRoot' not found. in SceneManager::getSceneNode at ..\..\..\..\OgreMain\src\OgreSceneManager.cpp (line 895)
