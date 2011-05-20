@@ -7,7 +7,13 @@ import ogre.renderer.OGRE as ogre
 import ogre.physics.OgreOde as OgreOde
 import ogre.io.OIS as OIS
 import clienteUDP 
+import clienteTCP 
 import time
+import ogre.gui.CEGUI as CEGUI
+import math 
+
+def cegui_reldim ( x ) :
+    return CEGUI.UDim((x),0)
 
 class CreatePlayer (OgreOde.CollisionListener, OgreOde.StepListener):
     KEY_DELAY = 1.0
@@ -31,7 +37,17 @@ class CreatePlayer (OgreOde.CollisionListener, OgreOde.StepListener):
         self.lista_personajes = []
         ogre.Root.getSingletonPtr().addMovableObjectFactory(self._ragdollFactory) 
         
-        self.p = clienteUDP.conectar()  
+        windowManager = CEGUI.WindowManager.getSingleton()
+
+        self.chatWindow = windowManager.getWindow("ChatWindow")
+        self.mapWindow = windowManager.getWindow("MapWindow")
+        self.flecha = windowManager.getWindow("Flecha")
+        
+        self.chatWindow.setVisible(True)
+        self.mapWindow.setVisible(True)
+        
+        self.p = clienteTCP.conectar()  
+#        self.p = clienteUDP.conectar()
         self.p.recibir.start()
         self.conjunto_nuevo = set([5000]) 
         self.conjunto_antiguo = set([5000])
@@ -42,25 +58,37 @@ class CreatePlayer (OgreOde.CollisionListener, OgreOde.StepListener):
         self.ip_lista = 0
         self.lista_de_Ips = []
         self.tipoCamara = 1
-        self.setInfoText("")
-        self.cont = 0
+#        self.setInfoText("")
+
         
         time.sleep(3)
      
         self.lista_clientes = self.p.getListaClientes()
         conjunto = set(self.lista_clientes)
-        self._player = len(self.lista_clientes)-2
+#        El codigo siguiente es con UDP
+#        self._player = len(self.lista_clientes)-2
+
+#        El codigo sieguiente es con TCP
+        self._player = len(self.lista_clientes)-1
+        print "El cliente es el numero >> ",self._player
            
 #        print "Los clientes actuales son",self.lista_clientes
 #        print "El player es",self._player
         time.sleep(3)
 
         conjunto = set(self.lista_clientes)
+        print "Los clientes son >> ",conjunto
+        i_cont = 0
+        for i in self.conjunto_antiguo:
+             print " Posiciones >> ",self.p.getPosicionActual(i_cont);
+             print " Orientacion >> ",self.p.getOrientacionActual(i_cont);
+             i_cont = i_cont + 1
         self.conjunto_antiguo = conjunto - self.conjunto_nuevo
         self.conjunto_nuevo = conjunto
 #        print "conjunto antiguo ",self.conjunto_antiguo
 #        print "conjunto nuevo ",self.conjunto_nuevo
 
+        self.cont = 0
         for ip in self.conjunto_antiguo:
                  #       #print "personaje creado numero ",self.cont
                         self.createPlayer(self.cont)
@@ -115,7 +143,9 @@ class CreatePlayer (OgreOde.CollisionListener, OgreOde.StepListener):
         personajeNode.setScale(12,12,12);
         posicionActual = self.p.getPosicionActual(_num_personaje)
         personajeNode.setPosition(posicionActual["px"], posicionActual["py"], posicionActual["pz"])
-        orientacionActual = self.p.getOrientacionActual(_num_personaje)
+#        orientacionActual = self.p.getOrientacionActual(_num_personaje)
+        orientacionActual = self.p.getOrientacionActual(0)
+
         personajeNode.setOrientation(orientacionActual["ow"],orientacionActual["ox"],orientacionActual["oy"],orientacionActual["oz"],)
 #        personajeNode.setPosition(-61.5693, 240.5599, 3.27917)
     
@@ -241,9 +271,25 @@ class CreatePlayer (OgreOde.CollisionListener, OgreOde.StepListener):
 
     def frameStarted(self,frameEvent,time,accion):
          
-    
-      
+        print accion
+#        print "numero de jugador ",self._player
+        px = self.lista_personajes[self._player]["personaje_node"].getPosition().x
+        pz = self.lista_personajes[self._player]["personaje_node"].getPosition().z
+        posFlechaX = 3558-math.fabs(px-755)
+        posFlechaZ = 1304-math.fabs(pz-782)
+
+        self.flecha.setPosition(CEGUI.UVector2(cegui_reldim(0.093+posFlechaX*0.000153), cegui_reldim(0.420+posFlechaZ*0.00014)))
+        
+       
+       
+        
+            
+             
         if(accion=="up"):
+#                 print self.flecha.getPosition()
+#                 print posFlechaX*0.00028
+#                 print posFlechaZ*0.00076
+#                 self.flecha.setPosition(CEGUI.UVector2(cegui_reldim(0.5+0.1), cegui_reldim(0.5)))
                  px = self.lista_personajes[self._player]["personaje_node"].getPosition().x
                  py = self.lista_personajes[self._player]["personaje_node"].getPosition().y
                  pz = self.lista_personajes[self._player]["personaje_node"].getPosition().z
@@ -251,9 +297,18 @@ class CreatePlayer (OgreOde.CollisionListener, OgreOde.StepListener):
                  ox = self.lista_personajes[self._player]["personaje_node"].getOrientation().x
                  oy = self.lista_personajes[self._player]["personaje_node"].getOrientation().y
                  oz = self.lista_personajes[self._player]["personaje_node"].getOrientation().z
-                 self.p.broadcast_posicion(self.ip_lista,px,py,pz)  
-                 self.p.broadcast_orientacion(self.ip_lista,ow,ox,oy,oz)
+
+                 self.p.broadcast_posicion(self.ip_lista,px,py,pz,ow,ox,oy,oz)  
+#                 self.p.broadcast_orientacion(self.ip_lista,ow,ox,oy,oz)
                  self.p.broadcast_accion(self.ip_lista,accion)
+                 print "mando a la direccion :",self.ip_lista," la accion ",accion
+#                 print "Mando Accion arriba"
+                 
+#
+#                 print "Posicion x y z"
+#                 print px
+#                 print py
+#                 print pz
         if (accion=="down"):
                  px = self.lista_personajes[self._player]["personaje_node"].getPosition().x
                  py = self.lista_personajes[self._player]["personaje_node"].getPosition().y
@@ -262,9 +317,10 @@ class CreatePlayer (OgreOde.CollisionListener, OgreOde.StepListener):
                  ox = self.lista_personajes[self._player]["personaje_node"].getOrientation().x
                  oy = self.lista_personajes[self._player]["personaje_node"].getOrientation().y
                  oz = self.lista_personajes[self._player]["personaje_node"].getOrientation().z
-                 self.p.broadcast_posicion(self.ip_lista,px,py,pz)  
-                 self.p.broadcast_orientacion(self.ip_lista,ow,ox,oy,oz)
+                 self.p.broadcast_posicion(self.ip_lista,px,py,pz,ow,ox,oy,oz)  
+#                 self.p.broadcast_orientacion(self.ip_lista,ow,ox,oy,oz)
                  self.p.broadcast_accion(self.ip_lista,accion)
+
                  
         if (accion=="right" or accion=="left"):
                  px = self.lista_personajes[self._player]["personaje_node"].getPosition().x
@@ -274,9 +330,11 @@ class CreatePlayer (OgreOde.CollisionListener, OgreOde.StepListener):
                  ox = self.lista_personajes[self._player]["personaje_node"].getOrientation().x
                  oy = self.lista_personajes[self._player]["personaje_node"].getOrientation().y
                  oz = self.lista_personajes[self._player]["personaje_node"].getOrientation().z
-                 self.p.broadcast_posicion(self.ip_lista,px,py,pz)  
-                 self.p.broadcast_orientacion(self.ip_lista,ow,ox,oy,oz)
+
+                 self.p.broadcast_posicion(self.ip_lista,px,py,pz,ow,ox,oy,oz)  
+#                 self.p.broadcast_orientacion(self.ip_lista,ow,ox,oy,oz)
                  self.p.broadcast_accion(self.ip_lista,accion)
+
             
         if (accion=="accionF4"):
                # #print self.p.getListaMov()
@@ -324,7 +382,23 @@ class CreatePlayer (OgreOde.CollisionListener, OgreOde.StepListener):
         if (self.tipoCamara == 0):
             self.camara3Persona()
 
+        if(accion==""):
+#                 print self.flecha.getPosition()
+#                 print posFlechaX*0.00028
+#                 print posFlechaZ*0.00076
+#                 self.flecha.setPosition(CEGUI.UVector2(cegui_reldim(0.5+0.1), cegui_reldim(0.5)))
+                 px = self.lista_personajes[self._player]["personaje_node"].getPosition().x
+                 py = self.lista_personajes[self._player]["personaje_node"].getPosition().y
+                 pz = self.lista_personajes[self._player]["personaje_node"].getPosition().z
+                 ow = self.lista_personajes[self._player]["personaje_node"].getOrientation().w
+                 ox = self.lista_personajes[self._player]["personaje_node"].getOrientation().x
+                 oy = self.lista_personajes[self._player]["personaje_node"].getOrientation().y
+                 oz = self.lista_personajes[self._player]["personaje_node"].getOrientation().z
 
+                 self.p.broadcast_posicion(self.ip_lista,px,py,pz,ow,ox,oy,oz)  
+#                 self.p.broadcast_orientacion(self.ip_lista,ow,ox,oy,oz)
+                 self.p.broadcast_accion(self.ip_lista,accion)
+                 print "mando a la direccion :",self.ip_lista," la accion ",accion
 
     def frameEnded(self,frameEvent,time,accion):
         
@@ -334,13 +408,19 @@ class CreatePlayer (OgreOde.CollisionListener, OgreOde.StepListener):
             for i in self.lista_personajes:
                                     _personaje_thrust = 0;
                                     _personaje_rotate = 0;
-                #if(cont<>self._player):
-                    
+
+                                
                                     if(self.p.getListaMovimientos(cont)<>[]):
                                         var_mov = self.p.getMovimiento(cont)
                                     else : 
                                         var_mov = "null"                               
-                                        _personaje_rotate = 0;
+                              
+  
+
+             
+#                                    var_mov = self.p.getUltimoMov(cont)
+                                    
+                                            
                                     if (var_mov=="left"):
                                         #print "left"
                                         _personaje_rotate += -1;
@@ -404,8 +484,10 @@ class CreatePlayer (OgreOde.CollisionListener, OgreOde.StepListener):
                                     self.lista_personajes[cont]["dollTorsoBody"].wake();
                                     self.lista_personajes[cont]["dollTorsoBody"].setOrientation(ogre.Quaternion(x,(0,1,0),z));
                                     self.lista_personajes[cont]["dollTorsoBody"].setAngularVelocity(ogre.Vector3(0,0,0)); 
-             
+                                    
                                     cont = cont + 1
+
+
 
 
     # 

@@ -8,6 +8,7 @@ import ogre.renderer.OGRE as ogre
 import ogre.physics.OgreOde as OgreOde
 
 from CreatePlayer import *
+from Mapa import *
 import dotscene as DotScene
 import os, sys
 
@@ -15,11 +16,12 @@ import os, sys
 # # /*
 # # The box stacking test extends the box stacking demo, but adds a trimesh!
 # # */
-class FacultyScene ( CreatePlayer ):
+class FacultyScene ( CreatePlayer,Mapa ):
     def __init__ ( self, world ,camera,player):
         
         if(player):
             CreatePlayer.__init__( self, world,camera)
+            Mapa.__init__(self)
         else:
             CreatePlayer.__init__( self, world,camera)
             
@@ -38,8 +40,8 @@ class FacultyScene ( CreatePlayer ):
         entity = self._mgr.createEntity(name,meshFile)
         node = self._mgr.getRootSceneNode().createChildSceneNode(entity.getName())
         node.attachObject(entity)
-        node.setPosition(ogre.Vector3(0,3,0))
-        node.setOrientation(ogre.Quaternion(ogre.Degree(30),ogre.Vector3().UNIT_Y))
+        node.setPosition(ogre.Vector3(0,0,0))
+#        node.setOrientation(ogre.Quaternion(ogre.Degree(30),ogre.Vector3().UNIT_Y))
         ei = OgreOde.EntityInformer (entity,node._getFullTransform())
         geom = ei.createStaticTriangleMesh(self._world, self._space)
         entity.setUserAny (geom)

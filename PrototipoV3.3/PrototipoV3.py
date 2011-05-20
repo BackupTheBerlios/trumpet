@@ -272,6 +272,117 @@ class Application(ogre.FrameListener):
         volverButton.setVisible(False)
         sheet.addChildWindow(volverButton)
         
+#===============================================================================
+#      CGUI que se muestra 
+#===============================================================================
+        
+        
+                    ##
+            ## Build a window with some text and formatting options via radio buttons etc
+            ##
+        textwnd = windowManager.createWindow("TaharezLook/FrameWindow", "ChatWindow")
+        sheet.addChildWindow(textwnd)
+        textwnd.setPosition(CEGUI.UVector2(cegui_reldim(0.0), cegui_reldim(0.7)))
+        textwnd.setMaxSize(CEGUI.UVector2(cegui_reldim(0.75), cegui_reldim(0.75)))
+        textwnd.setMinSize(CEGUI.UVector2(cegui_reldim(0.1), cegui_reldim(0.1)))
+        textwnd.setSize(CEGUI.UVector2(cegui_reldim(0.4), cegui_reldim(0.3))) 
+        textwnd.setCloseButtonEnabled(False)
+        textwnd.setText("Chat")
+        textwnd.setVisible(False)
+        
+        st = windowManager.createWindow("TaharezLook/StaticText", "TextWindow/chat")
+        textwnd.addChildWindow(st)
+        st.setPosition(CEGUI.UVector2(cegui_reldim(0.05), cegui_reldim(0.2))) 
+        st.setSize(CEGUI.UVector2(cegui_reldim(0.90), cegui_reldim(0.6)))
+                   
+           ## Edit box for text entry
+        eb = windowManager.createWindow("TaharezLook/Editbox", "TextWindow/text")
+        textwnd.addChildWindow(eb)
+        eb.setPosition(CEGUI.UVector2(cegui_reldim(0.05), cegui_reldim(0.82))) 
+        eb.setMaxSize(CEGUI.UVector2(cegui_reldim(1.0), cegui_reldim(0.04)))
+        eb.setSize(CEGUI.UVector2(cegui_reldim(0.90), cegui_reldim(0.2)))
+
+
+
+###        Crear un frameWindow y lo anade al root, establece su tamano y posicion
+        self.wnd = windowManager.createWindow("TaharezLook/FrameWindow", "MapWindow")
+        sheet.addChildWindow(self.wnd)
+        self.wnd.setCloseButtonEnabled(False)
+
+        self.wnd.setPosition(CEGUI.UVector2( cegui_reldim(0.7),
+                                        cegui_reldim(0)))
+        self.wnd.setSize(CEGUI.UVector2( cegui_reldim(0.3),
+                                    cegui_reldim(0.3)))
+        self.wnd.setText("Faculty Map")
+#        # need to do this else we get a crash probably as we are missing an
+#        # event handler
+#        # disable frame and standard background
+        self.wnd.setVisible(False)
+        self.wnd.setProperty ("FrameEnabled", "false")
+        
+        
+        
+
+
+#        ## load image to use as a background
+        if CEGUI.Version__.startswith ("0.6"):
+            CEGUI.ImagesetManager.getSingleton().createImagesetFromImageFile("BackgroundImage", "PlantaBaja.jpg")
+        else:
+            CEGUI.ImagesetManager.getSingleton().createFromImageFile("BackgroundImage", "PlantaBaja.jpg")
+#    ##  here we will use a StaticImage as the root, then we can use it to place a background image
+        background = windowManager.createWindow("TaharezLook/StaticImage" , "background_self.wnd")
+#        ## set position and size
+        background.setPosition(CEGUI.UVector2(cegui_reldim(0), cegui_reldim( 0)))
+        background.setSize(CEGUI.UVector2(cegui_reldim(1), cegui_reldim(1)))
+#        ## disable frame and standard background
+        background.setProperty("FrameEnabled", "false")
+        background.setProperty("BackgroundEnabled", "false")
+#        ## set the background image
+        background.setProperty("Image", "set:BackgroundImage image:full_image")
+        self.wnd.addChildWindow(background)
+        self.background = background
+        
+                 ##
+            ## Build a window with some text and formatting options via radio buttons etc
+            ##
+        textwnd2 = windowManager.createWindow("TaharezLook/FrameWindow","windowWhere")
+        background.addChildWindow(textwnd2)
+        textwnd2.setPosition(CEGUI.UVector2(cegui_reldim(0.42), cegui_reldim( 0.0))) 
+        textwnd2.setMaxSize(CEGUI.UVector2(cegui_reldim(0.75), cegui_reldim( 0.75)))
+        textwnd2.setMinSize(CEGUI.UVector2(cegui_reldim(0.1), cegui_reldim( 0.1)))
+        textwnd2.setSize(CEGUI.UVector2(cegui_reldim(0.2), cegui_reldim( 0.2)))
+        textwnd2.setCloseButtonEnabled(False)
+#        textwnd2.setVisible(False)
+        textwnd2.setText("Donde quieres ir?")
+
+            
+        st2 = windowManager.createWindow("TaharezLook/StaticText", "TextWindow/Where")
+        textwnd2.addChildWindow(st2)
+        st2.setPosition(CEGUI.UVector2(cegui_reldim(0.05), cegui_reldim( 0.45)))
+        st2.setSize(CEGUI.UVector2(cegui_reldim(0.90), cegui_reldim( 0.22)))       
+           
+        
+        
+        
+        #        ## load image to use as a background
+        if CEGUI.Version__.startswith ("0.6"):
+            CEGUI.ImagesetManager.getSingleton().createImagesetFromImageFile("Flecha", "flecha.png")
+        else:
+            CEGUI.ImagesetManager.getSingleton().createFromImageFile("Flecha", "flecha.png")
+#    ## here we will use a StaticImage as the root, then we can use it to place a background image
+        self.flecha = windowManager.createWindow("TaharezLook/StaticImage" , "Flecha")
+#        ## set position and size
+        self.flecha.setPosition(CEGUI.UVector2(cegui_reldim(0.5), cegui_reldim(0.5)))
+        self.flecha.setSize(CEGUI.UVector2(cegui_reldim(0.03), cegui_reldim(0.03)))
+#        ## disable frame and standard background
+        self.flecha.setProperty("FrameEnabled", "false")
+        self.flecha.setProperty("BackgroundEnabled", "false")
+#        ## set the background image
+        self.flecha.setProperty("Image", "set:Flecha image:full_image")
+        background.addChildWindow(self.flecha)
+
+
+        
         self.system.setGUISheet(sheet)
  
     def createFrameListener(self): 
@@ -285,6 +396,9 @@ class Application(ogre.FrameListener):
                                                      self._world,
                                                      self)
         self.root.addFrameListener(self.frameListenerCegui)
+        
+        
+        
 #        self.frameListenerCegui.showDebugOverlay(True)
         
     def startRenderLoop(self): 
@@ -328,31 +442,77 @@ class CEGUIFrameListener(sf.FrameListener, OIS.MouseListener, OIS.KeyListener):
         self.Mouse.setEventCallback(self)
         self.Keyboard.setEventCallback(self)
         self._test = 0
+        self._delay = 1.0
+        self.map = False
         
-        salirButton = CEGUI.WindowManager.getSingleton().getWindow("Salir")
-        salirButton.subscribeEvent(
+        windowManager = CEGUI.WindowManager.getSingleton()
+
+        self.chatShow = windowManager.getWindow("TextWindow/chat")
+        self.chatText = windowManager.getWindow("TextWindow/text")
+        self.mapWindow = windowManager.getWindow("MapWindow")
+        self.windowWhere = windowManager.getWindow("windowWhere")
+        
+        self.salirButton = CEGUI.WindowManager.getSingleton().getWindow("Salir")
+        self.salirButton.subscribeEvent(
                 "Clicked", self, "quit")
         
-        jugadorButton = CEGUI.WindowManager.getSingleton().getWindow("Jugador")
-        jugadorButton.subscribeEvent(
+        self.jugadorButton = CEGUI.WindowManager.getSingleton().getWindow("Jugador")
+        self.jugadorButton.subscribeEvent(
                 "Clicked", self, "cargaFacultad")
         
-        GuiaButton = CEGUI.WindowManager.getSingleton().getWindow("Guia")
-        GuiaButton.subscribeEvent(
+        self.GuiaButton = CEGUI.WindowManager.getSingleton().getWindow("Guia")
+        self.GuiaButton.subscribeEvent(
                 "Clicked", self, "cargaGuia")
         
-        opcionesButton = CEGUI.WindowManager.getSingleton().getWindow("Opciones")
-        opcionesButton.subscribeEvent(
+        self.opcionesButton = CEGUI.WindowManager.getSingleton().getWindow("Opciones")
+        self.opcionesButton.subscribeEvent(
                 "Clicked", self, "cargaOpciones")
         
-        volverButton = CEGUI.WindowManager.getSingleton().getWindow("Volver")
-        volverButton.subscribeEvent(
+        self.volverButton = CEGUI.WindowManager.getSingleton().getWindow("Volver")
+        self.volverButton.subscribeEvent(
                 "Clicked", self, "cargaPrincipal")
         
 
     def frameStarted(self, evt):
         self.Keyboard.capture()
         self.Mouse.capture()
+        
+        
+        time = evt.timeSinceLastFrame
+        self._delay += time
+        if (self._delay > 1.0):
+            
+            if self.Keyboard.isKeyDown(OIS.KC_M):
+                if(self.map == False):
+        #           Si el mapa esta en peuqeno hay que agrandarlo, y poner los botones 
+                    self.map = True
+                    self.mapWindow.setPosition(CEGUI.UVector2( cegui_reldim(0),
+                                                cegui_reldim(0)))
+                    self.mapWindow.setSize(CEGUI.UVector2( cegui_reldim(1),
+                                            cegui_reldim(1)))
+                    self.windowWhere.setVisible(True)
+                        
+                        
+                else :
+                    self.map = False
+                    
+                    self.mapWindow.setPosition(CEGUI.UVector2( cegui_reldim(0.7),
+                                        cegui_reldim(0)))
+                    self.mapWindow.setSize(CEGUI.UVector2( cegui_reldim(0.3),
+                                    cegui_reldim(0.3)))
+                    self.windowWhere.setVisible(False)
+
+        
+                self._delay = 0.0
+                
+                
+            if self.Keyboard.isKeyDown(OIS.KC_SPACE):
+                ## set text from the edit box...
+                self.chatShow.setText(self.chatShow.getText()+"\n"+self.chatText.getText())
+                self.chatText.setText("")
+                self._delay = 0.0
+            
+            
         return self.cont and not self.Keyboard.isKeyDown(OIS.KC_ESCAPE)
  
     def quit(self, evt):
@@ -362,6 +522,10 @@ class CEGUIFrameListener(sf.FrameListener, OIS.MouseListener, OIS.KeyListener):
     def cargaFacultad(self, evt):
         print "F1"
         global player
+        self.jugadorButton.setVisible(False)
+        self.GuiaButton.setVisible(False)
+        self.opcionesButton.setVisible(False)
+        self.salirButton.setVisible(False)
 #        del self._test
 #        self._test = FacultyScene(self._world,self.camera)
         player = True
@@ -418,9 +582,21 @@ class CEGUIFrameListener(sf.FrameListener, OIS.MouseListener, OIS.KeyListener):
         CEGUI.System.getSingleton().injectMouseMove(evt.get_state().X.rel, evt.get_state().Y.rel)
  
     def mousePressed(self, evt, id):
-        CEGUI.System.getSingleton().injectMouseButtonDown(convertButton(id))
+       CEGUI.System.getSingleton().injectMouseButtonDown(convertButton(id))
+       mousePos = CEGUI.MouseCursor.getSingleton().getPosition()
+#       if(mousePos.d_x<300):
+#           CEGUI.WindowManager.getSingleton().getWindow("TextWindow/Where").setText("<300")
+#       else: 
+#           CEGUI.WindowManager.getSingleton().getWindow("TextWindow/Where").setText(">300")
 
- 
+       print mousePos.d_x
+       print mousePos.d_y
+       
+       posX = mousePos.d_x*100/800
+       posY = mousePos.d_y*100/600
+       
+       self.positionOnMap(posX,posY)
+     
     def mouseReleased(self, evt, id):
         CEGUI.System.getSingleton().injectMouseButtonUp(convertButton(id))
 
@@ -435,6 +611,21 @@ class CEGUIFrameListener(sf.FrameListener, OIS.MouseListener, OIS.KeyListener):
 
     def keyReleased(self, evt):
         return True
+   
+   
+    def positionOnMap(self,x,y):
+         if((y<42)and (y>25)):
+              if((x<60)and(x>47)):
+                    CEGUI.WindowManager.getSingleton().getWindow("TextWindow/Where").setText("AULA 2")
+              if((x<47)and(x>35)):
+                    CEGUI.WindowManager.getSingleton().getWindow("TextWindow/Where").setText("AULA 3")
+              if((x<35)and(x>22)):
+                    CEGUI.WindowManager.getSingleton().getWindow("TextWindow/Where").setText("AULA 4")
+              if((x<22)and(x>10)):
+                    CEGUI.WindowManager.getSingleton().getWindow("TextWindow/Where").setText("AULA 5")           
+         else :
+              CEGUI.WindowManager.getSingleton().getWindow("TextWindow/Where").setText("No registrado")           
+                       
     
 class ExitListener(ogre.FrameListener): 
     def __init__(self,sceneManager, keyboard,world,stepper,camera): 
@@ -451,7 +642,7 @@ class ExitListener(ogre.FrameListener):
         
     def frameStarted(self, evt):
         self.keyboard.capture()
-        accion=""
+        accion="null"
         ## Set the shadow distance according to how far we are from the plane that receives them
         self.sceneManager.setShadowFarDistance((abs(self.camera.getPosition().y) + 1.0) * 3.0)
     
@@ -468,23 +659,28 @@ class ExitListener(ogre.FrameListener):
 #                print "F3"
             if self.keyboard.isKeyDown(OIS.KC_F4):
                 accion="accionF4"
-            if self.keyboard.isKeyDown(OIS.KC_UP) or self.keyboard.isKeyDown(OIS.KC_W):
                 
-                accion="up"  #
-                 
-
+  
+            if self.keyboard.isKeyDown(OIS.KC_UP) or self.keyboard.isKeyDown(OIS.KC_W):
+                     
+                     accion="up"  #
+                  
+     
             if self.keyboard.isKeyDown(OIS.KC_DOWN) or self.keyboard.isKeyDown(OIS.KC_S):
-               
-                accion= "down"
-
+                    
+                     accion= "down"
+                  
+     
             if self.keyboard.isKeyDown(OIS.KC_LEFT) or self.keyboard.isKeyDown(OIS.KC_A):
-    
-
-                 accion= "left"
-
+         
+     
+                      accion= "left"
+                    
+     
             if self.keyboard.isKeyDown(OIS.KC_RIGHT) or self.keyboard.isKeyDown(OIS.KC_D):
-               
-                 accion="right"
+                    
+                      accion="right"
+                   
             
 #            print accion
             self._test.frameStarted(evt,evt.timeSinceLastFrame,accion)
@@ -582,16 +778,16 @@ class ExitListener(ogre.FrameListener):
 
             ## Look at the last object, chase it, or not
 
-            if (self.keyboard.isKeyDown(OIS.KC_M)):
-                print "M"
-                if (self._looking):
-                    if (self._chasing): 
-                        self._looking = self._chasing = False
-                    else:
-                        self._chasing = True
-                else: 
-                    self._looking = True
-                self._delay = 0.0
+#            if (self.keyboard.isKeyDown(OIS.KC_M)):
+#                print "M"
+#                if (self._looking):
+#                    if (self._chasing): 
+#                        self._looking = self._chasing = False
+#                    else:
+#                        self._chasing = True
+#                else: 
+#                    self._looking = True
+#                self._delay = 0.0
 
                 
             ## Pause or unpause the simulation
